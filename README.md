@@ -1,4 +1,5 @@
 # Electra: Predicate-Aware Approximate Query Processing
+Project Website: https://nikhil96sher.github.io/electra/  
 This repository contains the details to generate the query workloads and datasets used to evaluate Electra: Predicate-Aware Approximate Query Processing.
 
 ### Datasets
