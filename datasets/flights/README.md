@@ -1,4 +1,4 @@
-# Flights
+# Flights Dataset
 
 Dataset Name: `Flights`
 

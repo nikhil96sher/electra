@@ -1,4 +1,4 @@
-# Beijing-PM25
+# Beijing-PM25 Dataset
 
 Dataset Name: `Beijing-PM25`
 
