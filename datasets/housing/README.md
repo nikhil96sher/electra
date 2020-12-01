@@ -14,4 +14,4 @@ Time Columns: `tradeTime`
 
 Synthetic queries used for evaluation are in `queries/synthetic_queries.sql`.
 
-Queries obtained from AEP workload are in `queries/aep_avg.sql` and `queries/aep_sum.sql`.
+Queries obtained from production workload are in `queries/aep_avg.sql` and `queries/aep_sum.sql`.
