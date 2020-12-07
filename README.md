@@ -8,7 +8,7 @@ This repository contains the details to generate the query workloads and dataset
 
 ### Relative Error Plots
 - In order to have a better visualization, we use the bounded `sMAPE` measure - which is bound between 0 and 2.
-- For the sake of completeness, we have included the relative error plots in `relative_error_plots/` directory.
+- For the sake of completeness, we have included the relative error plots in `docs/relative_error_plots/` directory.
 
 ### Contributors
 - Nikhil Sheoran <<sheoran@adobe.com>>
