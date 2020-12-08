@@ -1,100 +1,100 @@
-SELECT _c2,AVG(_n2) FROM housing_filtered WHERE _c1 = 3.0 AND _c4 = 3.0 AND _c5 = 4.0 AND _c6 = 6.0 AND _c8 = 2.0 AND _c9 = 1.0 AND _c10 = 8.0 AND _c11 = 8.0 AND _c13 = 24.0 GROUP BY _c2
-SELECT _c3,AVG(_n1) FROM housing_filtered WHERE _c0 = 3.0 AND _c2 = 2.0 AND _c4 = 4.0 AND _c5 = 4.0 AND _c6 = 2.0 AND _c7 = 1.0 AND _c8 = 1.0 AND _c9 = 1.0 AND _c11 = 10.0 AND _c12 = 4.0 GROUP BY _c3
-SELECT _c11,AVG(_n3) FROM housing_filtered WHERE _c0 = 3.0 AND _c1 = 2.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c6 = 6.0 AND _c7 = 2.0 AND _c8 = 1.0 AND _c9 = 2.0 AND _c10 = 1.0 AND _c13 = 20.0 GROUP BY _c11
-SELECT _c8,AVG(_n0) FROM housing_filtered WHERE _c1 = 2.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c4 = 3.0 AND _c5 = 4.0 AND _c6 = 6.0 AND _c7 = 2.0 AND _c10 = 6.0 AND _c11 = 10.0 AND _c12 = 6.0 AND _c13 = 9.0 GROUP BY _c8
-SELECT _c13,AVG(_n3) FROM housing_filtered WHERE _c1 = 2.0 AND _c2 = 2.0 AND _c5 = 1.0 AND _c6 = 6.0 AND _c8 = 1.0 AND _c11 = 6.0 AND _c12 = 12.0 GROUP BY _c13
-SELECT _c1,AVG(_n3) FROM housing_filtered WHERE _c2 = 2.0 AND _c4 = 1.0 AND _c6 = 6.0 AND _c7 = 2.0 AND _c10 = 9.0 GROUP BY _c1
-SELECT _c2,AVG(_n3) FROM housing_filtered GROUP BY _c2
-SELECT _c4,AVG(_n0) FROM housing_filtered WHERE _c3 = 2.0 AND _c5 = 3.0 AND _c6 = 6.0 AND _c13 = 10.0 GROUP BY _c4
-SELECT _c2,AVG(_n2) FROM housing_filtered WHERE _c9 = 2.0 GROUP BY _c2
-SELECT _c11,AVG(_n3) FROM housing_filtered WHERE _c1 = 3.0 AND _c2 = 2.0 AND _c5 = 3.0 AND _c6 = 6.0 AND _c9 = 1.0 AND _c10 = 7.0 AND _c13 = 28.0 GROUP BY _c11
-SELECT _c8,AVG(_n2) FROM housing_filtered WHERE _c0 = 4.0 AND _c1 = 2.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c4 = 4.0 AND _c5 = 1.0 AND _c6 = 2.0 AND _c7 = 1.0 AND _c9 = 2.0 AND _c10 = 10.0 AND _c11 = 7.0 AND _c12 = 11.0 AND _c13 = 3.0 GROUP BY _c8
-SELECT _c13,AVG(_n0) FROM housing_filtered WHERE _c9 = 2.0 GROUP BY _c13
-SELECT _c13,AVG(_n3) FROM housing_filtered WHERE _c0 = 3.0 AND _c1 = 2.0 AND _c2 = 2.0 AND _c3 = 3.0 AND _c4 = 3.0 AND _c5 = 4.0 AND _c6 = 6.0 AND _c7 = 2.0 AND _c9 = 1.0 AND _c11 = 11.0 AND _c12 = 11.0 GROUP BY _c13
-SELECT _c8,AVG(_n1) FROM housing_filtered WHERE _c0 = 2.0 AND _c1 = 2.0 AND _c3 = 2.0 AND _c5 = 1.0 AND _c6 = 6.0 AND _c7 = 2.0 AND _c9 = 1.0 AND _c10 = 8.0 AND _c11 = 9.0 AND _c12 = 4.0 AND _c13 = 12.0 GROUP BY _c8
-SELECT _c4,AVG(_n1) FROM housing_filtered WHERE _c2 = 2.0 AND _c5 = 1.0 AND _c8 = 1.0 GROUP BY _c4
-SELECT _c9,AVG(_n1) FROM housing_filtered WHERE _c0 = 3.0 AND _c1 = 2.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c4 = 4.0 AND _c5 = 3.0 AND _c6 = 2.0 AND _c7 = 1.0 AND _c8 = 2.0 AND _c10 = 2.0 AND _c11 = 10.0 AND _c12 = 5.0 AND _c13 = 21.0 GROUP BY _c9
-SELECT _c12,AVG(_n2) FROM housing_filtered WHERE _c0 = 3.0 AND _c1 = 2.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c4 = 1.0 AND _c5 = 1.0 AND _c6 = 6.0 AND _c7 = 2.0 AND _c8 = 1.0 AND _c9 = 2.0 AND _c10 = 7.0 AND _c11 = 7.0 AND _c13 = 20.0 GROUP BY _c12
-SELECT _c0,AVG(_n2) FROM housing_filtered WHERE _c1 = 2.0 AND _c5 = 4.0 AND _c6 = 2.0 AND _c11 = 10.0 GROUP BY _c0
-SELECT _c7,AVG(_n3) FROM housing_filtered WHERE _c0 = 3.0 AND _c2 = 2.0 AND _c4 = 4.0 AND _c5 = 1.0 AND _c6 = 2.0 AND _c8 = 1.0 AND _c10 = 6.0 AND _c12 = 3.0 AND _c13 = 23.0 GROUP BY _c7
-SELECT _c1,AVG(_n1) FROM housing_filtered WHERE _c0 = 2.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c4 = 3.0 AND _c5 = 1.0 AND _c6 = 6.0 AND _c7 = 2.0 AND _c8 = 1.0 AND _c9 = 2.0 AND _c10 = 2.0 AND _c13 = 11.0 GROUP BY _c1
-SELECT _c1,AVG(_n1) FROM housing_filtered WHERE _c5 = 4.0 AND _c7 = 1.0 AND _c12 = 3.0 GROUP BY _c1
-SELECT _c8,AVG(_n1) FROM housing_filtered WHERE _c0 = 3.0 AND _c1 = 2.0 AND _c3 = 2.0 AND _c4 = 1.0 AND _c11 = 11.0 AND _c12 = 4.0 GROUP BY _c8
-SELECT _c12,AVG(_n1) FROM housing_filtered WHERE _c1 = 2.0 AND _c7 = 2.0 AND _c8 = 2.0 AND _c10 = 2.0 AND _c13 = 23.0 GROUP BY _c12
-SELECT _c1,AVG(_n0) FROM housing_filtered WHERE _c2 = 2.0 AND _c3 = 2.0 AND _c5 = 1.0 AND _c9 = 1.0 GROUP BY _c1
-SELECT _c13,AVG(_n2) FROM housing_filtered WHERE _c1 = 2.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c4 = 3.0 AND _c5 = 3.0 AND _c6 = 6.0 AND _c7 = 2.0 AND _c8 = 1.0 AND _c9 = 1.0 AND _c10 = 3.0 AND _c11 = 10.0 GROUP BY _c13
-SELECT _c6,AVG(_n3) FROM housing_filtered WHERE _c0 = 3.0 AND _c2 = 2.0 AND _c5 = 1.0 AND _c7 = 2.0 AND _c8 = 2.0 AND _c9 = 1.0 AND _c10 = 10.0 AND _c11 = 9.0 AND _c12 = 3.0 AND _c13 = 30.0 GROUP BY _c6
-SELECT _c0,AVG(_n0) FROM housing_filtered GROUP BY _c0
-SELECT _c3,AVG(_n1) FROM housing_filtered WHERE _c0 = 5.0 AND _c1 = 3.0 AND _c2 = 2.0 AND _c4 = 4.0 AND _c6 = 6.0 AND _c7 = 2.0 AND _c8 = 1.0 AND _c9 = 2.0 AND _c10 = 7.0 AND _c11 = 10.0 GROUP BY _c3
-SELECT _c3,AVG(_n3) FROM housing_filtered WHERE _c0 = 2.0 AND _c2 = 2.0 AND _c5 = 4.0 AND _c10 = 7.0 GROUP BY _c3
-SELECT _c6,AVG(_n0) FROM housing_filtered GROUP BY _c6
-SELECT _c9,AVG(_n0) FROM housing_filtered WHERE _c2 = 2.0 AND _c4 = 4.0 AND _c6 = 2.0 AND _c10 = 8.0 AND _c11 = 9.0 AND _c12 = 3.0 GROUP BY _c9
-SELECT _c13,AVG(_n3) FROM housing_filtered WHERE _c10 = 5.0 GROUP BY _c13
-SELECT _c11,AVG(_n0) FROM housing_filtered WHERE _c0 = 2.0 AND _c1 = 1.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c4 = 3.0 AND _c5 = 4.0 AND _c6 = 6.0 AND _c7 = 2.0 AND _c9 = 2.0 AND _c10 = 6.0 AND _c12 = 6.0 AND _c13 = 10.0 GROUP BY _c11
-SELECT _c7,AVG(_n3) FROM housing_filtered WHERE _c0 = 3.0 AND _c1 = 2.0 AND _c6 = 4.0 AND _c9 = 1.0 AND _c10 = 7.0 AND _c12 = 6.0 AND _c13 = 28.0 GROUP BY _c7
-SELECT _c1,AVG(_n0) FROM housing_filtered GROUP BY _c1
-SELECT _c6,AVG(_n1) FROM housing_filtered WHERE _c1 = 2.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c4 = 1.0 AND _c5 = 1.0 AND _c8 = 2.0 AND _c9 = 1.0 AND _c10 = 9.0 AND _c11 = 9.0 AND _c12 = 4.0 AND _c13 = 21.0 GROUP BY _c6
-SELECT _c6,AVG(_n2) FROM housing_filtered WHERE _c0 = 2.0 AND _c1 = 2.0 AND _c3 = 2.0 AND _c5 = 4.0 AND _c7 = 1.0 AND _c8 = 2.0 AND _c9 = 2.0 AND _c12 = 12.0 AND _c13 = 23.0 GROUP BY _c6
-SELECT _c0,AVG(_n2) FROM housing_filtered GROUP BY _c0
-SELECT _c8,AVG(_n1) FROM housing_filtered WHERE _c1 = 3.0 AND _c2 = 2.0 AND _c5 = 1.0 AND _c9 = 2.0 AND _c10 = 7.0 GROUP BY _c8
-SELECT _c0,AVG(_n1) FROM housing_filtered WHERE _c1 = 3.0 AND _c2 = 2.0 AND _c3 = 3.0 AND _c4 = 4.0 AND _c5 = 1.0 AND _c6 = 2.0 AND _c7 = 2.0 AND _c8 = 1.0 AND _c9 = 2.0 AND _c10 = 6.0 AND _c11 = 7.0 AND _c12 = 3.0 AND _c13 = 13.0 GROUP BY _c0
-SELECT _c12,AVG(_n2) FROM housing_filtered WHERE _c6 = 2.0 AND _c10 = 7.0 GROUP BY _c12
-SELECT _c10,AVG(_n1) FROM housing_filtered WHERE _c7 = 1.0 GROUP BY _c10
-SELECT _c2,AVG(_n3) FROM housing_filtered WHERE _c1 = 2.0 AND _c9 = 2.0 AND _c10 = 2.0 AND _c11 = 8.0 AND _c12 = 2.0 AND _c13 = 12.0 GROUP BY _c2
-SELECT _c3,AVG(_n0) FROM housing_filtered WHERE _c4 = 1.0 GROUP BY _c3
-SELECT _c7,AVG(_n2) FROM housing_filtered WHERE _c1 = 2.0 AND _c4 = 1.0 AND _c5 = 4.0 AND _c9 = 1.0 AND _c10 = 7.0 AND _c13 = 3.0 GROUP BY _c7
-SELECT _c1,AVG(_n2) FROM housing_filtered GROUP BY _c1
-SELECT _c11,AVG(_n2) FROM housing_filtered WHERE _c0 = 3.0 AND _c1 = 2.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c4 = 4.0 AND _c5 = 1.0 AND _c6 = 4.0 AND _c7 = 1.0 AND _c8 = 1.0 AND _c9 = 1.0 AND _c12 = 6.0 AND _c13 = 7.0 GROUP BY _c11
-SELECT _c10,AVG(_n3) FROM housing_filtered WHERE _c2 = 2.0 GROUP BY _c10
-SELECT _c4,AVG(_n3) FROM housing_filtered GROUP BY _c4
-SELECT _c4,AVG(_n0) FROM housing_filtered WHERE _c0 = 3.0 AND _c1 = 3.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c5 = 3.0 AND _c6 = 6.0 AND _c7 = 2.0 AND _c8 = 2.0 AND _c9 = 1.0 AND _c10 = 11.0 AND _c12 = 5.0 AND _c13 = 13.0 GROUP BY _c4
-SELECT _c3,AVG(_n0) FROM housing_filtered WHERE _c0 = 2.0 AND _c2 = 2.0 AND _c4 = 1.0 AND _c5 = 3.0 AND _c6 = 6.0 AND _c7 = 2.0 AND _c8 = 2.0 AND _c9 = 2.0 AND _c10 = 7.0 AND _c11 = 10.0 AND _c12 = 6.0 AND _c13 = 10.0 GROUP BY _c3
-SELECT _c2,AVG(_n0) FROM housing_filtered WHERE _c0 = 4.0 AND _c3 = 3.0 AND _c4 = 4.0 AND _c6 = 2.0 AND _c7 = 1.0 AND _c8 = 2.0 AND _c11 = 10.0 AND _c13 = 16.0 GROUP BY _c2
-SELECT _c9,AVG(_n2) FROM housing_filtered WHERE _c0 = 3.0 AND _c1 = 2.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c4 = 1.0 AND _c5 = 4.0 AND _c6 = 6.0 AND _c7 = 2.0 AND _c8 = 2.0 AND _c10 = 7.0 AND _c11 = 9.0 AND _c12 = 4.0 AND _c13 = 25.0 GROUP BY _c9
-SELECT _c7,AVG(_n3) FROM housing_filtered WHERE _c1 = 2.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c4 = 1.0 AND _c5 = 1.0 AND _c6 = 6.0 AND _c8 = 2.0 AND _c9 = 1.0 AND _c10 = 7.0 AND _c12 = 6.0 AND _c13 = 11.0 GROUP BY _c7
-SELECT _c4,AVG(_n0) FROM housing_filtered WHERE _c0 = 3.0 AND _c1 = 2.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c5 = 4.0 AND _c6 = 6.0 AND _c7 = 2.0 AND _c8 = 2.0 AND _c9 = 1.0 AND _c10 = 7.0 AND _c12 = 7.0 AND _c13 = 26.0 GROUP BY _c4
-SELECT _c2,AVG(_n3) FROM housing_filtered WHERE _c0 = 2.0 AND _c1 = 2.0 AND _c3 = 2.0 AND _c4 = 1.0 AND _c5 = 4.0 AND _c6 = 6.0 AND _c7 = 2.0 AND _c10 = 8.0 AND _c11 = 10.0 AND _c12 = 7.0 AND _c13 = 11.0 GROUP BY _c2
-SELECT _c11,AVG(_n3) FROM housing_filtered WHERE _c0 = 4.0 AND _c2 = 2.0 AND _c3 = 3.0 AND _c6 = 6.0 AND _c13 = 4.0 GROUP BY _c11
-SELECT _c5,AVG(_n1) FROM housing_filtered WHERE _c0 = 4.0 AND _c1 = 3.0 AND _c3 = 3.0 AND _c6 = 2.0 AND _c7 = 1.0 AND _c10 = 6.0 AND _c11 = 9.0 AND _c13 = 31.0 GROUP BY _c5
-SELECT _c1,AVG(_n3) FROM housing_filtered WHERE _c4 = 1.0 GROUP BY _c1
-SELECT _c10,AVG(_n0) FROM housing_filtered WHERE _c1 = 3.0 AND _c3 = 2.0 AND _c4 = 4.0 AND _c8 = 2.0 AND _c9 = 2.0 AND _c11 = 10.0 AND _c12 = 7.0 AND _c13 = 21.0 GROUP BY _c10
-SELECT _c5,AVG(_n2) FROM housing_filtered WHERE _c3 = 2.0 AND _c9 = 2.0 GROUP BY _c5
-SELECT _c0,AVG(_n0) FROM housing_filtered WHERE _c1 = 2.0 AND _c2 = 2.0 AND _c5 = 1.0 AND _c6 = 6.0 AND _c7 = 2.0 AND _c8 = 1.0 AND _c9 = 2.0 AND _c10 = 7.0 AND _c12 = 7.0 AND _c13 = 10.0 GROUP BY _c0
-SELECT _c13,AVG(_n3) FROM housing_filtered WHERE _c0 = 3.0 AND _c1 = 2.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c4 = 4.0 AND _c5 = 4.0 AND _c6 = 2.0 AND _c7 = 1.0 AND _c8 = 2.0 AND _c9 = 2.0 AND _c10 = 10.0 AND _c11 = 10.0 AND _c12 = 8.0 GROUP BY _c13
-SELECT _c11,AVG(_n0) FROM housing_filtered WHERE _c0 = 3.0 AND _c1 = 2.0 AND _c3 = 3.0 AND _c4 = 1.0 AND _c6 = 6.0 AND _c8 = 1.0 AND _c9 = 2.0 AND _c10 = 1.0 AND _c12 = 8.0 AND _c13 = 17.0 GROUP BY _c11
-SELECT _c8,AVG(_n2) FROM housing_filtered WHERE _c0 = 3.0 AND _c1 = 3.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c4 = 4.0 AND _c5 = 1.0 AND _c6 = 2.0 AND _c7 = 1.0 AND _c11 = 10.0 AND _c12 = 8.0 AND _c13 = 2.0 GROUP BY _c8
-SELECT _c1,AVG(_n2) FROM housing_filtered WHERE _c3 = 2.0 AND _c4 = 4.0 AND _c6 = 4.0 AND _c7 = 1.0 AND _c8 = 1.0 AND _c10 = 7.0 AND _c11 = 10.0 GROUP BY _c1
-SELECT _c0,AVG(_n3) FROM housing_filtered WHERE _c1 = 2.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c4 = 4.0 AND _c5 = 1.0 AND _c6 = 2.0 AND _c7 = 1.0 AND _c8 = 2.0 AND _c9 = 2.0 AND _c10 = 8.0 AND _c11 = 8.0 AND _c12 = 10.0 GROUP BY _c0
-SELECT _c2,AVG(_n1) FROM housing_filtered WHERE _c0 = 3.0 AND _c1 = 3.0 AND _c3 = 2.0 AND _c4 = 3.0 AND _c5 = 4.0 AND _c6 = 6.0 AND _c7 = 2.0 AND _c8 = 2.0 AND _c9 = 1.0 AND _c10 = 4.0 AND _c11 = 11.0 AND _c12 = 3.0 AND _c13 = 10.0 GROUP BY _c2
-SELECT _c4,AVG(_n3) FROM housing_filtered WHERE _c5 = 1.0 GROUP BY _c4
-SELECT _c0,AVG(_n1) FROM housing_filtered WHERE _c1 = 2.0 AND _c5 = 4.0 AND _c8 = 1.0 GROUP BY _c0
-SELECT _c11,AVG(_n0) FROM housing_filtered GROUP BY _c11
-SELECT _c2,AVG(_n1) FROM housing_filtered WHERE _c0 = 2.0 AND _c1 = 2.0 AND _c3 = 2.0 AND _c4 = 4.0 AND _c5 = 3.0 AND _c6 = 4.0 AND _c7 = 1.0 AND _c8 = 2.0 AND _c9 = 2.0 AND _c10 = 7.0 AND _c11 = 9.0 AND _c12 = 10.0 AND _c13 = 14.0 GROUP BY _c2
-SELECT _c0,AVG(_n1) FROM housing_filtered WHERE _c4 = 4.0 AND _c10 = 6.0 AND _c11 = 6.0 GROUP BY _c0
-SELECT _c0,AVG(_n1) FROM housing_filtered WHERE _c1 = 2.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c4 = 4.0 AND _c5 = 3.0 AND _c6 = 2.0 AND _c7 = 1.0 AND _c9 = 2.0 AND _c10 = 8.0 AND _c11 = 8.0 AND _c13 = 19.0 GROUP BY _c0
-SELECT _c7,AVG(_n2) FROM housing_filtered WHERE _c0 = 2.0 AND _c1 = 2.0 AND _c3 = 2.0 AND _c4 = 4.0 AND _c5 = 4.0 AND _c6 = 2.0 AND _c8 = 2.0 AND _c10 = 7.0 AND _c12 = 2.0 AND _c13 = 29.0 GROUP BY _c7
-SELECT _c1,AVG(_n0) FROM housing_filtered WHERE _c0 = 2.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c4 = 3.0 AND _c5 = 3.0 AND _c6 = 6.0 AND _c7 = 2.0 AND _c9 = 1.0 AND _c11 = 8.0 AND _c12 = 6.0 AND _c13 = 24.0 GROUP BY _c1
-SELECT _c13,AVG(_n1) FROM housing_filtered GROUP BY _c13
-SELECT _c9,AVG(_n0) FROM housing_filtered WHERE _c1 = 2.0 AND _c2 = 2.0 AND _c4 = 4.0 AND _c5 = 4.0 AND _c6 = 2.0 AND _c7 = 1.0 AND _c10 = 8.0 AND _c11 = 9.0 AND _c13 = 21.0 GROUP BY _c9
-SELECT _c4,AVG(_n0) FROM housing_filtered WHERE _c2 = 2.0 AND _c3 = 2.0 AND _c5 = 1.0 AND _c6 = 2.0 AND _c7 = 1.0 AND _c8 = 2.0 AND _c11 = 6.0 AND _c12 = 11.0 GROUP BY _c4
-SELECT _c0,AVG(_n3) FROM housing_filtered WHERE _c1 = 3.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c5 = 3.0 AND _c7 = 1.0 AND _c9 = 2.0 AND _c11 = 8.0 AND _c12 = 7.0 AND _c13 = 4.0 GROUP BY _c0
-SELECT _c11,AVG(_n3) FROM housing_filtered WHERE _c1 = 2.0 GROUP BY _c11
-SELECT _c3,AVG(_n2) FROM housing_filtered WHERE _c1 = 3.0 AND _c4 = 4.0 AND _c13 = 16.0 GROUP BY _c3
-SELECT _c11,AVG(_n2) FROM housing_filtered WHERE _c0 = 3.0 AND _c1 = 2.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c4 = 4.0 AND _c5 = 1.0 AND _c8 = 2.0 AND _c9 = 2.0 AND _c10 = 2.0 AND _c12 = 11.0 GROUP BY _c11
-SELECT _c6,AVG(_n3) FROM housing_filtered WHERE _c1 = 3.0 AND _c2 = 2.0 AND _c4 = 4.0 AND _c5 = 4.0 AND _c7 = 2.0 AND _c8 = 1.0 AND _c9 = 2.0 AND _c10 = 7.0 AND _c12 = 6.0 GROUP BY _c6
-SELECT _c12,AVG(_n3) FROM housing_filtered WHERE _c0 = 3.0 AND _c1 = 2.0 AND _c3 = 2.0 AND _c5 = 1.0 AND _c6 = 2.0 AND _c8 = 2.0 AND _c10 = 7.0 AND _c11 = 7.0 GROUP BY _c12
-SELECT _c11,AVG(_n2) FROM housing_filtered WHERE _c0 = 3.0 AND _c8 = 2.0 GROUP BY _c11
-SELECT _c8,AVG(_n1) FROM housing_filtered GROUP BY _c8
-SELECT _c11,AVG(_n1) FROM housing_filtered WHERE _c1 = 2.0 AND _c2 = 2.0 AND _c7 = 2.0 AND _c8 = 2.0 AND _c9 = 2.0 AND _c12 = 11.0 AND _c13 = 1.0 GROUP BY _c11
-SELECT _c7,AVG(_n2) FROM housing_filtered WHERE _c3 = 3.0 AND _c5 = 3.0 AND _c6 = 6.0 AND _c9 = 2.0 AND _c11 = 9.0 GROUP BY _c7
-SELECT _c11,AVG(_n0) FROM housing_filtered WHERE _c0 = 3.0 AND _c9 = 2.0 GROUP BY _c11
-SELECT _c9,AVG(_n1) FROM housing_filtered WHERE _c3 = 2.0 AND _c5 = 1.0 AND _c8 = 2.0 AND _c10 = 7.0 GROUP BY _c9
-SELECT _c3,AVG(_n3) FROM housing_filtered WHERE _c1 = 2.0 AND _c5 = 1.0 AND _c7 = 2.0 AND _c8 = 2.0 AND _c10 = 2.0 AND _c11 = 11.0 GROUP BY _c3
-SELECT _c11,AVG(_n1) FROM housing_filtered WHERE _c0 = 2.0 AND _c1 = 2.0 AND _c2 = 2.0 AND _c5 = 4.0 AND _c6 = 2.0 AND _c7 = 1.0 AND _c8 = 2.0 AND _c9 = 1.0 AND _c10 = 2.0 AND _c12 = 4.0 AND _c13 = 10.0 GROUP BY _c11
-SELECT _c12,AVG(_n0) FROM housing_filtered WHERE _c0 = 3.0 AND _c2 = 2.0 AND _c3 = 2.0 AND _c4 = 4.0 AND _c6 = 2.0 GROUP BY _c12
-SELECT _c3,AVG(_n0) FROM housing_filtered WHERE _c5 = 4.0 AND _c6 = 6.0 AND _c7 = 2.0 AND _c8 = 2.0 AND _c9 = 1.0 AND _c10 = 7.0 AND _c12 = 1.0 AND _c13 = 31.0 GROUP BY _c3
-SELECT _c2,AVG(_n3) FROM housing_filtered WHERE _c1 = 2.0 AND _c8 = 2.0 AND _c12 = 7.0 GROUP BY _c2
-SELECT _c3,AVG(_n3) FROM housing_filtered WHERE _c0 = 3.0 AND _c13 = 27.0 GROUP BY _c3
-SELECT _c7,AVG(_n0) FROM housing_filtered WHERE _c2 = 2.0 AND _c4 = 4.0 AND _c6 = 2.0 AND _c8 = 2.0 AND _c9 = 1.0 AND _c10 = 9.0 AND _c11 = 7.0 AND _c12 = 4.0 GROUP BY _c7
-SELECT _c3,AVG(_n2) FROM housing_filtered WHERE _c12 = 3.0 GROUP BY _c3
-SELECT _c4,AVG(_n2) FROM housing_filtered WHERE _c11 = 11.0 GROUP BY _c4
+SELECT kitchen, AVG(square) FROM housing_filtered WHERE (drawingRoom = 2 AND buildingType = 3.0 AND renovationCondition = 4 AND buildingStructure = 6 AND fiveYearsProperty = 1.0 AND subway = 0.0 AND district = 8 AND tradeTime_YEAR = 2014 AND tradeTime_DAY = 24) GROUP BY kitchen;
+SELECT bathRoom, AVG(price) FROM housing_filtered WHERE (livingRoom = 2 AND kitchen = 1 AND buildingType = 4.0 AND renovationCondition = 4 AND buildingStructure = 2 AND elevator = 0.0 AND fiveYearsProperty = 0.0 AND subway = 0.0 AND tradeTime_YEAR = 2016 AND tradeTime_MONTH = 4) GROUP BY bathRoom;
+SELECT tradeTime_YEAR, AVG(communityAverage) FROM housing_filtered WHERE (livingRoom = 2 AND drawingRoom = 1 AND kitchen = 1 AND bathRoom = 1 AND buildingStructure = 6 AND elevator = 1.0 AND fiveYearsProperty = 0.0 AND subway = 1.0 AND district = 1 AND tradeTime_DAY = 20) GROUP BY tradeTime_YEAR;
+SELECT fiveYearsProperty, AVG(totalPrice) FROM housing_filtered WHERE (drawingRoom = 1 AND kitchen = 1 AND bathRoom = 1 AND buildingType = 3.0 AND renovationCondition = 4 AND buildingStructure = 6 AND elevator = 1.0 AND district = 6 AND tradeTime_YEAR = 2016 AND tradeTime_MONTH = 6 AND tradeTime_DAY = 9) GROUP BY fiveYearsProperty;
+SELECT tradeTime_DAY, AVG(communityAverage) FROM housing_filtered WHERE (drawingRoom = 1 AND kitchen = 1 AND renovationCondition = 1 AND buildingStructure = 6 AND fiveYearsProperty = 0.0 AND tradeTime_YEAR = 2012 AND tradeTime_MONTH = 12) GROUP BY tradeTime_DAY;
+SELECT drawingRoom, AVG(communityAverage) FROM housing_filtered WHERE (kitchen = 1 AND buildingType = 1.0 AND buildingStructure = 6 AND elevator = 1.0 AND district = 9) GROUP BY drawingRoom;
+SELECT kitchen, AVG(communityAverage) FROM housing_filtered GROUP BY kitchen
+SELECT buildingType, AVG(totalPrice) FROM housing_filtered WHERE (bathRoom = 1 AND renovationCondition = 3 AND buildingStructure = 6 AND tradeTime_DAY = 10) GROUP BY buildingType;
+SELECT kitchen, AVG(square) FROM housing_filtered WHERE subway = 1.0 GROUP BY kitchen;
+SELECT tradeTime_YEAR, AVG(communityAverage) FROM housing_filtered WHERE (drawingRoom = 2 AND kitchen = 1 AND renovationCondition = 3 AND buildingStructure = 6 AND subway = 0.0 AND district = 7 AND tradeTime_DAY = 28) GROUP BY tradeTime_YEAR;
+SELECT fiveYearsProperty, AVG(square) FROM housing_filtered WHERE (livingRoom = 3 AND drawingRoom = 1 AND kitchen = 1 AND bathRoom = 1 AND buildingType = 4.0 AND renovationCondition = 1 AND buildingStructure = 2 AND elevator = 0.0 AND subway = 1.0 AND district = 10 AND tradeTime_YEAR = 2013 AND tradeTime_MONTH = 11 AND tradeTime_DAY = 3) GROUP BY fiveYearsProperty;
+SELECT tradeTime_DAY, AVG(totalPrice) FROM housing_filtered WHERE subway = 1.0 GROUP BY tradeTime_DAY;
+SELECT tradeTime_DAY, AVG(communityAverage) FROM housing_filtered WHERE (livingRoom = 2 AND drawingRoom = 1 AND kitchen = 1 AND bathRoom = 2 AND buildingType = 3.0 AND renovationCondition = 4 AND buildingStructure = 6 AND elevator = 1.0 AND subway = 0.0 AND tradeTime_YEAR = 2017 AND tradeTime_MONTH = 11) GROUP BY tradeTime_DAY;
+SELECT fiveYearsProperty, AVG(price) FROM housing_filtered WHERE (livingRoom = 1 AND drawingRoom = 1 AND bathRoom = 1 AND renovationCondition = 1 AND buildingStructure = 6 AND elevator = 1.0 AND subway = 0.0 AND district = 8 AND tradeTime_YEAR = 2015 AND tradeTime_MONTH = 4 AND tradeTime_DAY = 12) GROUP BY fiveYearsProperty;
+SELECT buildingType, AVG(price) FROM housing_filtered WHERE (kitchen = 1 AND renovationCondition = 1 AND fiveYearsProperty = 0.0) GROUP BY buildingType;
+SELECT subway, AVG(price) FROM housing_filtered WHERE (livingRoom = 2 AND drawingRoom = 1 AND kitchen = 1 AND bathRoom = 1 AND buildingType = 4.0 AND renovationCondition = 3 AND buildingStructure = 2 AND elevator = 0.0 AND fiveYearsProperty = 1.0 AND district = 2 AND tradeTime_YEAR = 2016 AND tradeTime_MONTH = 5 AND tradeTime_DAY = 21) GROUP BY subway;
+SELECT tradeTime_MONTH, AVG(square) FROM housing_filtered WHERE (livingRoom = 2 AND drawingRoom = 1 AND kitchen = 1 AND bathRoom = 1 AND buildingType = 1.0 AND renovationCondition = 1 AND buildingStructure = 6 AND elevator = 1.0 AND fiveYearsProperty = 0.0 AND subway = 1.0 AND district = 7 AND tradeTime_YEAR = 2013 AND tradeTime_DAY = 20) GROUP BY tradeTime_MONTH;
+SELECT livingRoom, AVG(square) FROM housing_filtered WHERE (drawingRoom = 1 AND renovationCondition = 4 AND buildingStructure = 2 AND tradeTime_YEAR = 2016) GROUP BY livingRoom;
+SELECT elevator, AVG(communityAverage) FROM housing_filtered WHERE (livingRoom = 2 AND kitchen = 1 AND buildingType = 4.0 AND renovationCondition = 1 AND buildingStructure = 2 AND fiveYearsProperty = 0.0 AND district = 6 AND tradeTime_MONTH = 3 AND tradeTime_DAY = 23) GROUP BY elevator;
+SELECT drawingRoom, AVG(price) FROM housing_filtered WHERE (livingRoom = 1 AND kitchen = 1 AND bathRoom = 1 AND buildingType = 3.0 AND renovationCondition = 1 AND buildingStructure = 6 AND elevator = 1.0 AND fiveYearsProperty = 0.0 AND subway = 1.0 AND district = 2 AND tradeTime_DAY = 11) GROUP BY drawingRoom;
+SELECT drawingRoom, AVG(price) FROM housing_filtered WHERE (renovationCondition = 4 AND elevator = 0.0 AND tradeTime_MONTH = 3) GROUP BY drawingRoom;
+SELECT fiveYearsProperty, AVG(price) FROM housing_filtered WHERE (livingRoom = 2 AND drawingRoom = 1 AND bathRoom = 1 AND buildingType = 1.0 AND tradeTime_YEAR = 2017 AND tradeTime_MONTH = 4) GROUP BY fiveYearsProperty;
+SELECT tradeTime_MONTH, AVG(price) FROM housing_filtered WHERE (drawingRoom = 1 AND elevator = 1.0 AND fiveYearsProperty = 1.0 AND district = 2 AND tradeTime_DAY = 23) GROUP BY tradeTime_MONTH;
+SELECT drawingRoom, AVG(totalPrice) FROM housing_filtered WHERE (kitchen = 1 AND bathRoom = 1 AND renovationCondition = 1 AND subway = 0.0) GROUP BY drawingRoom;
+SELECT tradeTime_DAY, AVG(square) FROM housing_filtered WHERE (drawingRoom = 1 AND kitchen = 1 AND bathRoom = 1 AND buildingType = 3.0 AND renovationCondition = 3 AND buildingStructure = 6 AND elevator = 1.0 AND fiveYearsProperty = 0.0 AND subway = 0.0 AND district = 3 AND tradeTime_YEAR = 2016) GROUP BY tradeTime_DAY;
+SELECT buildingStructure, AVG(communityAverage) FROM housing_filtered WHERE (livingRoom = 2 AND kitchen = 1 AND renovationCondition = 1 AND elevator = 1.0 AND fiveYearsProperty = 1.0 AND subway = 0.0 AND district = 10 AND tradeTime_YEAR = 2015 AND tradeTime_MONTH = 3 AND tradeTime_DAY = 30) GROUP BY buildingStructure;
+SELECT livingRoom, AVG(totalPrice) FROM housing_filtered GROUP BY livingRoom
+SELECT bathRoom, AVG(price) FROM housing_filtered WHERE (livingRoom = 4 AND drawingRoom = 2 AND kitchen = 1 AND buildingType = 4.0 AND buildingStructure = 6 AND elevator = 1.0 AND fiveYearsProperty = 0.0 AND subway = 1.0 AND district = 7 AND tradeTime_YEAR = 2016) GROUP BY bathRoom;
+SELECT bathRoom, AVG(communityAverage) FROM housing_filtered WHERE (livingRoom = 1 AND kitchen = 1 AND renovationCondition = 4 AND district = 7) GROUP BY bathRoom;
+SELECT buildingStructure, AVG(totalPrice) FROM housing_filtered GROUP BY buildingStructure
+SELECT subway, AVG(totalPrice) FROM housing_filtered WHERE (kitchen = 1 AND buildingType = 4.0 AND buildingStructure = 2 AND district = 8 AND tradeTime_YEAR = 2015 AND tradeTime_MONTH = 3) GROUP BY subway;
+SELECT tradeTime_DAY, AVG(communityAverage) FROM housing_filtered WHERE district = 5 GROUP BY tradeTime_DAY;
+SELECT tradeTime_YEAR, AVG(totalPrice) FROM housing_filtered WHERE (livingRoom = 1 AND drawingRoom = 0 AND kitchen = 1 AND bathRoom = 1 AND buildingType = 3.0 AND renovationCondition = 4 AND buildingStructure = 6 AND elevator = 1.0 AND subway = 1.0 AND district = 6 AND tradeTime_MONTH = 6 AND tradeTime_DAY = 10) GROUP BY tradeTime_YEAR;
+SELECT elevator, AVG(communityAverage) FROM housing_filtered WHERE (livingRoom = 2 AND drawingRoom = 1 AND buildingStructure = 4 AND subway = 0.0 AND district = 7 AND tradeTime_MONTH = 6 AND tradeTime_DAY = 28) GROUP BY elevator;
+SELECT drawingRoom, AVG(totalPrice) FROM housing_filtered GROUP BY drawingRoom
+SELECT buildingStructure, AVG(price) FROM housing_filtered WHERE (drawingRoom = 1 AND kitchen = 1 AND bathRoom = 1 AND buildingType = 1.0 AND renovationCondition = 1 AND fiveYearsProperty = 1.0 AND subway = 0.0 AND district = 9 AND tradeTime_YEAR = 2015 AND tradeTime_MONTH = 4 AND tradeTime_DAY = 21) GROUP BY buildingStructure;
+SELECT buildingStructure, AVG(square) FROM housing_filtered WHERE (livingRoom = 1 AND drawingRoom = 1 AND bathRoom = 1 AND renovationCondition = 4 AND elevator = 0.0 AND fiveYearsProperty = 1.0 AND subway = 1.0 AND tradeTime_MONTH = 12 AND tradeTime_DAY = 23) GROUP BY buildingStructure;
+SELECT livingRoom, AVG(square) FROM housing_filtered GROUP BY livingRoom
+SELECT fiveYearsProperty, AVG(price) FROM housing_filtered WHERE (drawingRoom = 2 AND kitchen = 1 AND renovationCondition = 1 AND subway = 1.0 AND district = 7) GROUP BY fiveYearsProperty;
+SELECT livingRoom, AVG(price) FROM housing_filtered WHERE (drawingRoom = 2 AND kitchen = 1 AND bathRoom = 2 AND buildingType = 4.0 AND renovationCondition = 1 AND buildingStructure = 2 AND elevator = 1.0 AND fiveYearsProperty = 0.0 AND subway = 1.0 AND district = 6 AND tradeTime_YEAR = 2013 AND tradeTime_MONTH = 3 AND tradeTime_DAY = 13) GROUP BY livingRoom;
+SELECT tradeTime_MONTH, AVG(square) FROM housing_filtered WHERE (buildingStructure = 2 AND district = 7) GROUP BY tradeTime_MONTH;
+SELECT district, AVG(price) FROM housing_filtered WHERE elevator = 0.0 GROUP BY district;
+SELECT kitchen, AVG(communityAverage) FROM housing_filtered WHERE (drawingRoom = 1 AND subway = 1.0 AND district = 2 AND tradeTime_YEAR = 2014 AND tradeTime_MONTH = 2 AND tradeTime_DAY = 12) GROUP BY kitchen;
+SELECT bathRoom, AVG(totalPrice) FROM housing_filtered WHERE buildingType = 1.0 GROUP BY bathRoom;
+SELECT elevator, AVG(square) FROM housing_filtered WHERE (drawingRoom = 1 AND buildingType = 1.0 AND renovationCondition = 4 AND subway = 0.0 AND district = 7 AND tradeTime_DAY = 3) GROUP BY elevator;
+SELECT drawingRoom, AVG(square) FROM housing_filtered GROUP BY drawingRoom
+SELECT tradeTime_YEAR, AVG(square) FROM housing_filtered WHERE (livingRoom = 2 AND drawingRoom = 1 AND kitchen = 1 AND bathRoom = 1 AND buildingType = 4.0 AND renovationCondition = 1 AND buildingStructure = 4 AND elevator = 0.0 AND fiveYearsProperty = 0.0 AND subway = 0.0 AND tradeTime_MONTH = 6 AND tradeTime_DAY = 7) GROUP BY tradeTime_YEAR;
+SELECT district, AVG(communityAverage) FROM housing_filtered WHERE kitchen = 1 GROUP BY district;
+SELECT buildingType, AVG(communityAverage) FROM housing_filtered GROUP BY buildingType
+SELECT buildingType, AVG(totalPrice) FROM housing_filtered WHERE (livingRoom = 2 AND drawingRoom = 2 AND kitchen = 1 AND bathRoom = 1 AND renovationCondition = 3 AND buildingStructure = 6 AND elevator = 1.0 AND fiveYearsProperty = 1.0 AND subway = 0.0 AND district = 11 AND tradeTime_MONTH = 5 AND tradeTime_DAY = 13) GROUP BY buildingType;
+SELECT bathRoom, AVG(totalPrice) FROM housing_filtered WHERE (livingRoom = 1 AND kitchen = 1 AND buildingType = 1.0 AND renovationCondition = 3 AND buildingStructure = 6 AND elevator = 1.0 AND fiveYearsProperty = 1.0 AND subway = 1.0 AND district = 7 AND tradeTime_YEAR = 2016 AND tradeTime_MONTH = 6 AND tradeTime_DAY = 10) GROUP BY bathRoom;
+SELECT kitchen, AVG(totalPrice) FROM housing_filtered WHERE (livingRoom = 3 AND bathRoom = 2 AND buildingType = 4.0 AND buildingStructure = 2 AND elevator = 0.0 AND fiveYearsProperty = 1.0 AND tradeTime_YEAR = 2016 AND tradeTime_DAY = 16) GROUP BY kitchen;
+SELECT subway, AVG(square) FROM housing_filtered WHERE (livingRoom = 2 AND drawingRoom = 1 AND kitchen = 1 AND bathRoom = 1 AND buildingType = 1.0 AND renovationCondition = 4 AND buildingStructure = 6 AND elevator = 1.0 AND fiveYearsProperty = 1.0 AND district = 7 AND tradeTime_YEAR = 2015 AND tradeTime_MONTH = 4 AND tradeTime_DAY = 25) GROUP BY subway;
+SELECT elevator, AVG(communityAverage) FROM housing_filtered WHERE (drawingRoom = 1 AND kitchen = 1 AND bathRoom = 1 AND buildingType = 1.0 AND renovationCondition = 1 AND buildingStructure = 6 AND fiveYearsProperty = 1.0 AND subway = 0.0 AND district = 7 AND tradeTime_MONTH = 6 AND tradeTime_DAY = 11) GROUP BY elevator;
+SELECT buildingType, AVG(totalPrice) FROM housing_filtered WHERE (livingRoom = 2 AND drawingRoom = 1 AND kitchen = 1 AND bathRoom = 1 AND renovationCondition = 4 AND buildingStructure = 6 AND elevator = 1.0 AND fiveYearsProperty = 1.0 AND subway = 0.0 AND district = 7 AND tradeTime_MONTH = 7 AND tradeTime_DAY = 26) GROUP BY buildingType;
+SELECT kitchen, AVG(communityAverage) FROM housing_filtered WHERE (livingRoom = 1 AND drawingRoom = 1 AND bathRoom = 1 AND buildingType = 1.0 AND renovationCondition = 4 AND buildingStructure = 6 AND elevator = 1.0 AND district = 8 AND tradeTime_YEAR = 2016 AND tradeTime_MONTH = 7 AND tradeTime_DAY = 11) GROUP BY kitchen;
+SELECT tradeTime_YEAR, AVG(communityAverage) FROM housing_filtered WHERE (livingRoom = 3 AND kitchen = 1 AND bathRoom = 2 AND buildingStructure = 6 AND tradeTime_DAY = 4) GROUP BY tradeTime_YEAR;
+SELECT renovationCondition, AVG(price) FROM housing_filtered WHERE (livingRoom = 3 AND drawingRoom = 2 AND bathRoom = 2 AND buildingStructure = 2 AND elevator = 0.0 AND district = 6 AND tradeTime_YEAR = 2015 AND tradeTime_DAY = 31) GROUP BY renovationCondition;
+SELECT drawingRoom, AVG(communityAverage) FROM housing_filtered WHERE buildingType = 1.0 GROUP BY drawingRoom;
+SELECT district, AVG(totalPrice) FROM housing_filtered WHERE (drawingRoom = 2 AND bathRoom = 1 AND buildingType = 4.0 AND fiveYearsProperty = 1.0 AND subway = 1.0 AND tradeTime_YEAR = 2016 AND tradeTime_MONTH = 7 AND tradeTime_DAY = 21) GROUP BY district;
+SELECT renovationCondition, AVG(square) FROM housing_filtered WHERE (bathRoom = 1 AND subway = 1.0) GROUP BY renovationCondition;
+SELECT livingRoom, AVG(totalPrice) FROM housing_filtered WHERE (drawingRoom = 1 AND kitchen = 1 AND renovationCondition = 1 AND buildingStructure = 6 AND elevator = 1.0 AND fiveYearsProperty = 0.0 AND subway = 1.0 AND district = 7 AND tradeTime_MONTH = 7 AND tradeTime_DAY = 10) GROUP BY livingRoom;
+SELECT tradeTime_DAY, AVG(communityAverage) FROM housing_filtered WHERE (livingRoom = 2 AND drawingRoom = 1 AND kitchen = 1 AND bathRoom = 1 AND buildingType = 4.0 AND renovationCondition = 4 AND buildingStructure = 2 AND elevator = 0.0 AND fiveYearsProperty = 1.0 AND subway = 1.0 AND district = 10 AND tradeTime_YEAR = 2016 AND tradeTime_MONTH = 8) GROUP BY tradeTime_DAY;
+SELECT tradeTime_YEAR, AVG(totalPrice) FROM housing_filtered WHERE (livingRoom = 2 AND drawingRoom = 1 AND bathRoom = 2 AND buildingType = 1.0 AND buildingStructure = 6 AND fiveYearsProperty = 0.0 AND subway = 1.0 AND district = 1 AND tradeTime_MONTH = 8 AND tradeTime_DAY = 17) GROUP BY tradeTime_YEAR;
+SELECT fiveYearsProperty, AVG(square) FROM housing_filtered WHERE (livingRoom = 2 AND drawingRoom = 2 AND kitchen = 1 AND bathRoom = 1 AND buildingType = 4.0 AND renovationCondition = 1 AND buildingStructure = 2 AND elevator = 0.0 AND tradeTime_YEAR = 2016 AND tradeTime_MONTH = 8 AND tradeTime_DAY = 2) GROUP BY fiveYearsProperty;
+SELECT drawingRoom, AVG(square) FROM housing_filtered WHERE (bathRoom = 1 AND buildingType = 4.0 AND buildingStructure = 4 AND elevator = 0.0 AND fiveYearsProperty = 0.0 AND district = 7 AND tradeTime_YEAR = 2016) GROUP BY drawingRoom;
+SELECT livingRoom, AVG(communityAverage) FROM housing_filtered WHERE (drawingRoom = 1 AND kitchen = 1 AND bathRoom = 1 AND buildingType = 4.0 AND renovationCondition = 1 AND buildingStructure = 2 AND elevator = 0.0 AND fiveYearsProperty = 1.0 AND subway = 1.0 AND district = 8 AND tradeTime_YEAR = 2014 AND tradeTime_MONTH = 10) GROUP BY livingRoom;
+SELECT kitchen, AVG(price) FROM housing_filtered WHERE (livingRoom = 2 AND drawingRoom = 2 AND bathRoom = 1 AND buildingType = 3.0 AND renovationCondition = 4 AND buildingStructure = 6 AND elevator = 1.0 AND fiveYearsProperty = 1.0 AND subway = 0.0 AND district = 4 AND tradeTime_YEAR = 2017 AND tradeTime_MONTH = 3 AND tradeTime_DAY = 10) GROUP BY kitchen;
+SELECT buildingType, AVG(communityAverage) FROM housing_filtered WHERE renovationCondition = 1 GROUP BY buildingType;
+SELECT livingRoom, AVG(price) FROM housing_filtered WHERE (drawingRoom = 1 AND renovationCondition = 4 AND fiveYearsProperty = 0.0) GROUP BY livingRoom;
+SELECT tradeTime_YEAR, AVG(totalPrice) FROM housing_filtered GROUP BY tradeTime_YEAR
+SELECT kitchen, AVG(price) FROM housing_filtered WHERE (livingRoom = 1 AND drawingRoom = 1 AND bathRoom = 1 AND buildingType = 4.0 AND renovationCondition = 3 AND buildingStructure = 4 AND elevator = 0.0 AND fiveYearsProperty = 1.0 AND subway = 1.0 AND district = 7 AND tradeTime_YEAR = 2015 AND tradeTime_MONTH = 10 AND tradeTime_DAY = 14) GROUP BY kitchen;
+SELECT livingRoom, AVG(price) FROM housing_filtered WHERE (buildingType = 4.0 AND district = 6 AND tradeTime_YEAR = 2012) GROUP BY livingRoom;
+SELECT livingRoom, AVG(price) FROM housing_filtered WHERE (drawingRoom = 1 AND kitchen = 1 AND bathRoom = 1 AND buildingType = 4.0 AND renovationCondition = 3 AND buildingStructure = 2 AND elevator = 0.0 AND subway = 1.0 AND district = 8 AND tradeTime_YEAR = 2014 AND tradeTime_DAY = 19) GROUP BY livingRoom;
+SELECT elevator, AVG(square) FROM housing_filtered WHERE (livingRoom = 1 AND drawingRoom = 1 AND bathRoom = 1 AND buildingType = 4.0 AND renovationCondition = 4 AND buildingStructure = 2 AND fiveYearsProperty = 1.0 AND district = 7 AND tradeTime_MONTH = 2 AND tradeTime_DAY = 29) GROUP BY elevator;
+SELECT drawingRoom, AVG(totalPrice) FROM housing_filtered WHERE (livingRoom = 1 AND kitchen = 1 AND bathRoom = 1 AND buildingType = 3.0 AND renovationCondition = 3 AND buildingStructure = 6 AND elevator = 1.0 AND subway = 0.0 AND tradeTime_YEAR = 2014 AND tradeTime_MONTH = 6 AND tradeTime_DAY = 24) GROUP BY drawingRoom;
+SELECT tradeTime_DAY, AVG(price) FROM housing_filtered GROUP BY tradeTime_DAY
+SELECT subway, AVG(totalPrice) FROM housing_filtered WHERE (drawingRoom = 1 AND kitchen = 1 AND buildingType = 4.0 AND renovationCondition = 4 AND buildingStructure = 2 AND elevator = 0.0 AND district = 8 AND tradeTime_YEAR = 2015 AND tradeTime_DAY = 21) GROUP BY subway;
+SELECT buildingType, AVG(totalPrice) FROM housing_filtered WHERE (kitchen = 1 AND bathRoom = 1 AND renovationCondition = 1 AND buildingStructure = 2 AND elevator = 0.0 AND fiveYearsProperty = 1.0 AND tradeTime_YEAR = 2012 AND tradeTime_MONTH = 11) GROUP BY buildingType;
+SELECT livingRoom, AVG(communityAverage) FROM housing_filtered WHERE (drawingRoom = 2 AND kitchen = 1 AND bathRoom = 1 AND renovationCondition = 3 AND elevator = 0.0 AND subway = 1.0 AND tradeTime_YEAR = 2014 AND tradeTime_MONTH = 7 AND tradeTime_DAY = 4) GROUP BY livingRoom;
+SELECT tradeTime_YEAR, AVG(communityAverage) FROM housing_filtered WHERE drawingRoom = 1 GROUP BY tradeTime_YEAR;
+SELECT bathRoom, AVG(square) FROM housing_filtered WHERE (drawingRoom = 2 AND buildingType = 4.0 AND tradeTime_DAY = 16) GROUP BY bathRoom;
+SELECT tradeTime_YEAR, AVG(square) FROM housing_filtered WHERE (livingRoom = 2 AND drawingRoom = 1 AND kitchen = 1 AND bathRoom = 1 AND buildingType = 4.0 AND renovationCondition = 1 AND fiveYearsProperty = 1.0 AND subway = 1.0 AND district = 2 AND tradeTime_MONTH = 11) GROUP BY tradeTime_YEAR;
+SELECT buildingStructure, AVG(communityAverage) FROM housing_filtered WHERE (drawingRoom = 2 AND kitchen = 1 AND buildingType = 4.0 AND renovationCondition = 4 AND elevator = 1.0 AND fiveYearsProperty = 0.0 AND subway = 1.0 AND district = 7 AND tradeTime_MONTH = 6) GROUP BY buildingStructure;
+SELECT tradeTime_MONTH, AVG(communityAverage) FROM housing_filtered WHERE (livingRoom = 2 AND drawingRoom = 1 AND bathRoom = 1 AND renovationCondition = 1 AND buildingStructure = 2 AND fiveYearsProperty = 1.0 AND district = 7 AND tradeTime_YEAR = 2013) GROUP BY tradeTime_MONTH;
+SELECT tradeTime_YEAR, AVG(square) FROM housing_filtered WHERE (livingRoom = 2 AND fiveYearsProperty = 1.0) GROUP BY tradeTime_YEAR;
+SELECT fiveYearsProperty, AVG(price) FROM housing_filtered GROUP BY fiveYearsProperty
+SELECT tradeTime_YEAR, AVG(price) FROM housing_filtered WHERE (drawingRoom = 1 AND kitchen = 1 AND elevator = 1.0 AND fiveYearsProperty = 1.0 AND subway = 1.0 AND tradeTime_MONTH = 11 AND tradeTime_DAY = 1) GROUP BY tradeTime_YEAR;
+SELECT elevator, AVG(square) FROM housing_filtered WHERE (bathRoom = 2 AND renovationCondition = 3 AND buildingStructure = 6 AND subway = 1.0 AND tradeTime_YEAR = 2015) GROUP BY elevator;
+SELECT tradeTime_YEAR, AVG(totalPrice) FROM housing_filtered WHERE (livingRoom = 2 AND subway = 1.0) GROUP BY tradeTime_YEAR;
+SELECT subway, AVG(price) FROM housing_filtered WHERE (bathRoom = 1 AND renovationCondition = 1 AND fiveYearsProperty = 1.0 AND district = 7) GROUP BY subway;
+SELECT bathRoom, AVG(communityAverage) FROM housing_filtered WHERE (drawingRoom = 1 AND renovationCondition = 1 AND elevator = 1.0 AND fiveYearsProperty = 1.0 AND district = 2 AND tradeTime_YEAR = 2017) GROUP BY bathRoom;
+SELECT tradeTime_YEAR, AVG(price) FROM housing_filtered WHERE (livingRoom = 1 AND drawingRoom = 1 AND kitchen = 1 AND renovationCondition = 4 AND buildingStructure = 2 AND elevator = 0.0 AND fiveYearsProperty = 1.0 AND subway = 0.0 AND district = 2 AND tradeTime_MONTH = 4 AND tradeTime_DAY = 10) GROUP BY tradeTime_YEAR;
+SELECT tradeTime_MONTH, AVG(totalPrice) FROM housing_filtered WHERE (livingRoom = 2 AND kitchen = 1 AND bathRoom = 1 AND buildingType = 4.0 AND buildingStructure = 2) GROUP BY tradeTime_MONTH;
+SELECT bathRoom, AVG(totalPrice) FROM housing_filtered WHERE (renovationCondition = 4 AND buildingStructure = 6 AND elevator = 1.0 AND fiveYearsProperty = 1.0 AND subway = 0.0 AND district = 7 AND tradeTime_MONTH = 1 AND tradeTime_DAY = 31) GROUP BY bathRoom;
+SELECT kitchen, AVG(communityAverage) FROM housing_filtered WHERE (drawingRoom = 1 AND fiveYearsProperty = 1.0 AND tradeTime_MONTH = 7) GROUP BY kitchen;
+SELECT bathRoom, AVG(communityAverage) FROM housing_filtered WHERE (livingRoom = 2 AND tradeTime_DAY = 27) GROUP BY bathRoom;
+SELECT elevator, AVG(totalPrice) FROM housing_filtered WHERE (kitchen = 1 AND buildingType = 4.0 AND buildingStructure = 2 AND fiveYearsProperty = 1.0 AND subway = 0.0 AND district = 9 AND tradeTime_YEAR = 2013 AND tradeTime_MONTH = 4) GROUP BY elevator;
+SELECT bathRoom, AVG(square) FROM housing_filtered WHERE tradeTime_MONTH = 3 GROUP BY bathRoom;
+SELECT buildingType, AVG(square) FROM housing_filtered WHERE tradeTime_YEAR = 2017 GROUP BY buildingType;

@@ -1,100 +1,100 @@
-SELECT _c0,AVG(_n5) FROM flights_2019 WHERE _c4 = 15.0 AND _c5 = 59.0 AND _c7 = 94.0 AND _c8 = 6.0 GROUP BY _c0
-SELECT _c5,AVG(_n1) FROM flights_2019 WHERE _c0 = 3.0 AND _c2 = 5.0 AND _c3 = 1.0 AND _c4 = 2.0 AND _c7 = 95.0 GROUP BY _c5
-SELECT _c2,AVG(_n3) FROM flights_2019 WHERE _c0 = 3.0 AND _c3 = 2.0 AND _c4 = 10.0 AND _c6 = 43.0 GROUP BY _c2
-SELECT _c8,AVG(_n4) FROM flights_2019 WHERE _c1 = 7.0 AND _c2 = 21.0 AND _c4 = 17.0 AND _c6 = 48.0 GROUP BY _c8
-SELECT _c5,AVG(_n5) FROM flights_2019 WHERE _c1 = 1.0 AND _c2 = 2.0 AND _c3 = 3.0 AND _c6 = 17.0 AND _c7 = 95.0 AND _c8 = 43.0 GROUP BY _c5
-SELECT _c0,AVG(_n5) FROM flights_2019 WHERE _c3 = 7.0 AND _c7 = 308.0 GROUP BY _c0
-SELECT _c3,AVG(_n3) FROM flights_2019 WHERE _c0 = 3.0 AND _c2 = 9.0 AND _c4 = 2.0 AND _c5 = 263.0 AND _c6 = 3.0 AND _c7 = 247.0 AND _c8 = 5.0 GROUP BY _c3
-SELECT _c1,AVG(_n5) FROM flights_2019 WHERE _c5 = 116.0 GROUP BY _c1
-SELECT _c6,AVG(_n3) FROM flights_2019 WHERE _c1 = 5.0 AND _c2 = 13.0 AND _c3 = 1.0 AND _c4 = 4.0 AND _c5 = 47.0 AND _c7 = 72.0 AND _c8 = 34.0 GROUP BY _c6
-SELECT _c8,AVG(_n0) FROM flights_2019 WHERE _c0 = 2.0 AND _c1 = 5.0 AND _c4 = 17.0 AND _c5 = 170.0 AND _c6 = 13.0 GROUP BY _c8
-SELECT _c4,AVG(_n0) FROM flights_2019 WHERE _c1 = 7.0 AND _c3 = 7.0 AND _c5 = 95.0 AND _c6 = 43.0 AND _c7 = 343.0 AND _c8 = 35.0 GROUP BY _c4
-SELECT _c2,AVG(_n1) FROM flights_2019 WHERE _c8 = 43.0 GROUP BY _c2
-SELECT _c6,AVG(_n2) FROM flights_2019 WHERE _c0 = 3.0 AND _c1 = 9.0 AND _c3 = 6.0 AND _c5 = 93.0 AND _c7 = 178.0 AND _c8 = 8.0 GROUP BY _c6
-SELECT _c7,AVG(_n3) FROM flights_2019 GROUP BY _c7
-SELECT _c5,AVG(_n0) FROM flights_2019 GROUP BY _c5
-SELECT _c0,AVG(_n5) FROM flights_2019 WHERE _c1 = 2.0 AND _c2 = 19.0 GROUP BY _c0
-SELECT _c6,AVG(_n3) FROM flights_2019 WHERE _c0 = 3.0 AND _c1 = 7.0 AND _c2 = 11.0 AND _c3 = 4.0 AND _c4 = 14.0 AND _c5 = 262.0 AND _c7 = 310.0 AND _c8 = 5.0 GROUP BY _c6
-SELECT _c0,AVG(_n5) FROM flights_2019 WHERE _c1 = 10.0 GROUP BY _c0
-SELECT _c1,AVG(_n1) FROM flights_2019 GROUP BY _c1
-SELECT _c3,AVG(_n0) FROM flights_2019 WHERE _c0 = 3.0 AND _c1 = 8.0 AND _c4 = 2.0 AND _c6 = 5.0 GROUP BY _c3
-SELECT _c2,AVG(_n5) FROM flights_2019 WHERE _c6 = 10.0 AND _c7 = 183.0 AND _c8 = 10.0 GROUP BY _c2
-SELECT _c7,AVG(_n1) FROM flights_2019 WHERE _c1 = 2.0 AND _c2 = 15.0 AND _c6 = 43.0 GROUP BY _c7
-SELECT _c1,AVG(_n0) FROM flights_2019 WHERE _c4 = 17.0 AND _c5 = 248.0 AND _c8 = 48.0 GROUP BY _c1
-SELECT _c1,AVG(_n3) FROM flights_2019 WHERE _c2 = 2.0 AND _c3 = 1.0 AND _c7 = 22.0 AND _c8 = 9.0 GROUP BY _c1
-SELECT _c8,AVG(_n2) FROM flights_2019 WHERE _c4 = 14.0 GROUP BY _c8
-SELECT _c0,AVG(_n0) FROM flights_2019 WHERE _c3 = 7.0 AND _c5 = 22.0 AND _c6 = 9.0 GROUP BY _c0
-SELECT _c5,AVG(_n1) FROM flights_2019 WHERE _c0 = 2.0 AND _c1 = 6.0 AND _c2 = 16.0 AND _c3 = 7.0 AND _c4 = 14.0 AND _c6 = 8.0 AND _c7 = 248.0 AND _c8 = 12.0 GROUP BY _c5
-SELECT _c0,AVG(_n2) FROM flights_2019 WHERE _c2 = 17.0 AND _c4 = 6.0 GROUP BY _c0
-SELECT _c7,AVG(_n3) FROM flights_2019 WHERE _c0 = 4.0 AND _c1 = 12.0 AND _c2 = 9.0 AND _c3 = 1.0 AND _c4 = 2.0 AND _c6 = 35.0 AND _c8 = 43.0 GROUP BY _c7
-SELECT _c2,AVG(_n5) FROM flights_2019 WHERE _c0 = 2.0 AND _c3 = 7.0 AND _c5 = 141.0 AND _c7 = 74.0 AND _c8 = 32.0 GROUP BY _c2
-SELECT _c5,AVG(_n1) FROM flights_2019 WHERE _c0 = 3.0 AND _c1 = 7.0 AND _c2 = 21.0 AND _c7 = 94.0 AND _c8 = 6.0 GROUP BY _c5
-SELECT _c4,AVG(_n2) FROM flights_2019 WHERE _c0 = 1.0 AND _c1 = 3.0 AND _c2 = 25.0 AND _c5 = 189.0 AND _c7 = 210.0 AND _c8 = 24.0 GROUP BY _c4
-SELECT _c7,AVG(_n5) FROM flights_2019 WHERE _c1 = 7.0 AND _c3 = 1.0 AND _c4 = 10.0 AND _c5 = 248.0 AND _c6 = 12.0 AND _c8 = 24.0 GROUP BY _c7
-SELECT _c3,AVG(_n0) FROM flights_2019 WHERE _c1 = 5.0 AND _c2 = 24.0 AND _c5 = 349.0 AND _c6 = 42.0 AND _c7 = 262.0 GROUP BY _c3
-SELECT _c8,AVG(_n1) FROM flights_2019 WHERE _c4 = 5.0 AND _c5 = 212.0 AND _c6 = 37.0 GROUP BY _c8
-SELECT _c3,AVG(_n3) FROM flights_2019 GROUP BY _c3
-SELECT _c6,AVG(_n4) FROM flights_2019 WHERE _c1 = 4.0 AND _c8 = 31.0 GROUP BY _c6
-SELECT _c8,AVG(_n3) FROM flights_2019 WHERE _c0 = 2.0 AND _c1 = 6.0 AND _c2 = 29.0 AND _c3 = 6.0 AND _c4 = 13.0 AND _c5 = 22.0 AND _c6 = 9.0 GROUP BY _c8
-SELECT _c3,AVG(_n2) FROM flights_2019 WHERE _c2 = 7.0 AND _c5 = 165.0 AND _c6 = 43.0 AND _c8 = 21.0 GROUP BY _c3
-SELECT _c8,AVG(_n3) FROM flights_2019 WHERE _c0 = 3.0 AND _c5 = 102.0 AND _c7 = 244.0 GROUP BY _c8
-SELECT _c2,AVG(_n3) FROM flights_2019 WHERE _c0 = 3.0 AND _c1 = 7.0 AND _c4 = 15.0 AND _c5 = 242.0 AND _c7 = 153.0 AND _c8 = 10.0 GROUP BY _c2
-SELECT _c4,AVG(_n4) FROM flights_2019 WHERE _c0 = 2.0 AND _c1 = 4.0 AND _c2 = 10.0 AND _c3 = 3.0 AND _c5 = 310.0 AND _c6 = 5.0 AND _c8 = 48.0 GROUP BY _c4
-SELECT _c2,AVG(_n1) FROM flights_2019 WHERE _c0 = 1.0 AND _c5 = 248.0 AND _c7 = 119.0 GROUP BY _c2
-SELECT _c3,AVG(_n5) FROM flights_2019 WHERE _c0 = 3.0 AND _c2 = 30.0 AND _c4 = 1.0 AND _c5 = 198.0 AND _c6 = 31.0 AND _c7 = 56.0 AND _c8 = 47.0 GROUP BY _c3
-SELECT _c2,AVG(_n1) FROM flights_2019 WHERE _c0 = 2.0 AND _c1 = 6.0 AND _c3 = 4.0 AND _c5 = 299.0 AND _c6 = 43.0 AND _c8 = 43.0 GROUP BY _c2
-SELECT _c7,AVG(_n4) FROM flights_2019 WHERE _c0 = 4.0 AND _c1 = 12.0 AND _c2 = 15.0 AND _c3 = 7.0 AND _c4 = 1.0 AND _c6 = 37.0 AND _c8 = 16.0 GROUP BY _c7
-SELECT _c5,AVG(_n5) FROM flights_2019 WHERE _c1 = 11.0 AND _c2 = 17.0 AND _c3 = 7.0 AND _c4 = 13.0 AND _c6 = 21.0 GROUP BY _c5
-SELECT _c5,AVG(_n1) FROM flights_2019 WHERE _c3 = 3.0 AND _c6 = 37.0 AND _c8 = 34.0 GROUP BY _c5
-SELECT _c2,AVG(_n1) FROM flights_2019 WHERE _c0 = 4.0 AND _c1 = 10.0 AND _c3 = 1.0 AND _c4 = 5.0 AND _c5 = 22.0 AND _c6 = 9.0 AND _c7 = 293.0 AND _c8 = 31.0 GROUP BY _c2
-SELECT _c0,AVG(_n5) FROM flights_2019 WHERE _c1 = 1.0 AND _c2 = 28.0 AND _c4 = 15.0 AND _c6 = 37.0 AND _c8 = 6.0 GROUP BY _c0
-SELECT _c4,AVG(_n5) FROM flights_2019 WHERE _c0 = 1.0 AND _c1 = 1.0 AND _c2 = 29.0 AND _c5 = 240.0 AND _c7 = 299.0 AND _c8 = 43.0 GROUP BY _c4
-SELECT _c5,AVG(_n2) FROM flights_2019 GROUP BY _c5
-SELECT _c7,AVG(_n4) FROM flights_2019 WHERE _c0 = 4.0 AND _c1 = 10.0 AND _c2 = 11.0 AND _c3 = 5.0 AND _c5 = 95.0 AND _c6 = 43.0 AND _c8 = 8.0 GROUP BY _c7
-SELECT _c2,AVG(_n2) FROM flights_2019 GROUP BY _c2
-SELECT _c8,AVG(_n4) FROM flights_2019 GROUP BY _c8
-SELECT _c3,AVG(_n2) FROM flights_2019 WHERE _c4 = 5.0 GROUP BY _c3
-SELECT _c8,AVG(_n4) FROM flights_2019 WHERE _c0 = 3.0 AND _c1 = 9.0 AND _c2 = 19.0 AND _c3 = 4.0 AND _c4 = 11.0 AND _c6 = 21.0 AND _c7 = 340.0 GROUP BY _c8
-SELECT _c7,AVG(_n1) FROM flights_2019 WHERE _c0 = 3.0 AND _c1 = 8.0 AND _c5 = 74.0 AND _c8 = 8.0 GROUP BY _c7
-SELECT _c7,AVG(_n2) FROM flights_2019 WHERE _c1 = 8.0 AND _c4 = 12.0 AND _c6 = 23.0 GROUP BY _c7
-SELECT _c8,AVG(_n0) FROM flights_2019 WHERE _c3 = 2.0 AND _c4 = 5.0 AND _c5 = 178.0 AND _c7 = 22.0 GROUP BY _c8
-SELECT _c1,AVG(_n3) FROM flights_2019 WHERE _c2 = 30.0 AND _c3 = 4.0 AND _c5 = 189.0 AND _c6 = 5.0 AND _c7 = 273.0 AND _c8 = 3.0 GROUP BY _c1
-SELECT _c8,AVG(_n1) FROM flights_2019 WHERE _c0 = 3.0 AND _c7 = 90.0 GROUP BY _c8
-SELECT _c1,AVG(_n3) FROM flights_2019 WHERE _c0 = 4.0 AND _c2 = 26.0 AND _c3 = 4.0 AND _c4 = 3.0 AND _c5 = 189.0 AND _c6 = 5.0 AND _c7 = 308.0 AND _c8 = 49.0 GROUP BY _c1
-SELECT _c8,AVG(_n4) FROM flights_2019 WHERE _c4 = 13.0 GROUP BY _c8
-SELECT _c2,AVG(_n2) FROM flights_2019 WHERE _c1 = 6.0 AND _c5 = 187.0 AND _c6 = 27.0 AND _c7 = 211.0 AND _c8 = 8.0 GROUP BY _c2
-SELECT _c0,AVG(_n0) FROM flights_2019 WHERE _c1 = 9.0 AND _c3 = 3.0 AND _c4 = 6.0 AND _c5 = 72.0 AND _c6 = 34.0 AND _c8 = 43.0 GROUP BY _c0
-SELECT _c4,AVG(_n4) FROM flights_2019 WHERE _c0 = 2.0 AND _c1 = 4.0 AND _c2 = 6.0 AND _c3 = 6.0 AND _c6 = 8.0 AND _c7 = 68.0 AND _c8 = 40.0 GROUP BY _c4
-SELECT _c3,AVG(_n0) FROM flights_2019 GROUP BY _c3
-SELECT _c6,AVG(_n3) FROM flights_2019 WHERE _c0 = 4.0 AND _c1 = 12.0 AND _c2 = 29.0 AND _c3 = 7.0 AND _c4 = 15.0 AND _c5 = 213.0 AND _c7 = 316.0 AND _c8 = 5.0 GROUP BY _c6
-SELECT _c2,AVG(_n0) FROM flights_2019 WHERE _c1 = 3.0 AND _c3 = 7.0 AND _c7 = 22.0 GROUP BY _c2
-SELECT _c2,AVG(_n2) FROM flights_2019 WHERE _c0 = 4.0 AND _c1 = 11.0 AND _c3 = 7.0 AND _c5 = 95.0 AND _c7 = 298.0 GROUP BY _c2
-SELECT _c1,AVG(_n0) FROM flights_2019 WHERE _c4 = 5.0 AND _c5 = 22.0 AND _c8 = 8.0 GROUP BY _c1
-SELECT _c2,AVG(_n4) FROM flights_2019 WHERE _c6 = 5.0 AND _c8 = 3.0 GROUP BY _c2
-SELECT _c5,AVG(_n4) FROM flights_2019 WHERE _c0 = 1.0 AND _c1 = 3.0 AND _c4 = 2.0 AND _c6 = 37.0 AND _c7 = 47.0 AND _c8 = 20.0 GROUP BY _c5
-SELECT _c2,AVG(_n1) FROM flights_2019 WHERE _c7 = 262.0 GROUP BY _c2
-SELECT _c7,AVG(_n0) FROM flights_2019 GROUP BY _c7
-SELECT _c4,AVG(_n0) FROM flights_2019 WHERE _c1 = 9.0 AND _c2 = 15.0 AND _c3 = 7.0 AND _c5 = 155.0 AND _c6 = 43.0 AND _c7 = 25.0 AND _c8 = 43.0 GROUP BY _c4
-SELECT _c0,AVG(_n4) FROM flights_2019 WHERE _c3 = 2.0 AND _c4 = 17.0 AND _c5 = 140.0 AND _c6 = 21.0 AND _c7 = 116.0 AND _c8 = 29.0 GROUP BY _c0
-SELECT _c5,AVG(_n0) FROM flights_2019 WHERE _c7 = 266.0 GROUP BY _c5
-SELECT _c1,AVG(_n5) FROM flights_2019 GROUP BY _c1
-SELECT _c1,AVG(_n1) FROM flights_2019 WHERE _c0 = 4.0 AND _c2 = 9.0 AND _c4 = 5.0 AND _c5 = 189.0 AND _c6 = 5.0 AND _c7 = 258.0 AND _c8 = 36.0 GROUP BY _c1
-SELECT _c1,AVG(_n3) FROM flights_2019 WHERE _c0 = 3.0 AND _c2 = 31.0 AND _c3 = 6.0 AND _c4 = 16.0 AND _c5 = 165.0 AND _c6 = 43.0 AND _c7 = 55.0 GROUP BY _c1
-SELECT _c8,AVG(_n5) FROM flights_2019 WHERE _c6 = 6.0 GROUP BY _c8
-SELECT _c4,AVG(_n3) FROM flights_2019 WHERE _c1 = 10.0 AND _c2 = 14.0 AND _c7 = 211.0 AND _c8 = 8.0 GROUP BY _c4
-SELECT _c3,AVG(_n2) FROM flights_2019 WHERE _c1 = 5.0 AND _c2 = 9.0 AND _c4 = 13.0 AND _c5 = 343.0 AND _c6 = 35.0 AND _c8 = 43.0 GROUP BY _c3
-SELECT _c4,AVG(_n4) FROM flights_2019 WHERE _c5 = 340.0 AND _c7 = 248.0 AND _c8 = 12.0 GROUP BY _c4
-SELECT _c3,AVG(_n3) FROM flights_2019 WHERE _c2 = 6.0 AND _c4 = 15.0 AND _c7 = 213.0 AND _c8 = 12.0 GROUP BY _c3
-SELECT _c6,AVG(_n2) FROM flights_2019 WHERE _c0 = 1.0 AND _c1 = 1.0 AND _c2 = 11.0 AND _c3 = 5.0 AND _c4 = 5.0 AND _c5 = 170.0 AND _c7 = 22.0 AND _c8 = 9.0 GROUP BY _c6
-SELECT _c5,AVG(_n5) FROM flights_2019 WHERE _c0 = 1.0 AND _c3 = 3.0 AND _c4 = 17.0 GROUP BY _c5
-SELECT _c1,AVG(_n2) FROM flights_2019 WHERE _c2 = 7.0 AND _c3 = 4.0 GROUP BY _c1
-SELECT _c5,AVG(_n2) FROM flights_2019 WHERE _c0 = 3.0 AND _c1 = 7.0 AND _c2 = 12.0 AND _c3 = 5.0 AND _c4 = 17.0 AND _c6 = 51.0 AND _c7 = 116.0 AND _c8 = 29.0 GROUP BY _c5
-SELECT _c8,AVG(_n2) FROM flights_2019 WHERE _c1 = 9.0 AND _c5 = 248.0 AND _c6 = 12.0 AND _c7 = 311.0 GROUP BY _c8
-SELECT _c7,AVG(_n5) FROM flights_2019 WHERE _c8 = 37.0 GROUP BY _c7
-SELECT _c4,AVG(_n2) FROM flights_2019 WHERE _c8 = 22.0 GROUP BY _c4
-SELECT _c2,AVG(_n1) FROM flights_2019 GROUP BY _c2
-SELECT _c6,AVG(_n1) FROM flights_2019 WHERE _c0 = 4.0 AND _c1 = 10.0 AND _c3 = 2.0 AND _c4 = 2.0 AND _c7 = 248.0 AND _c8 = 12.0 GROUP BY _c6
-SELECT _c3,AVG(_n0) FROM flights_2019 WHERE _c0 = 1.0 AND _c1 = 2.0 AND _c2 = 23.0 AND _c4 = 5.0 AND _c5 = 47.0 AND _c6 = 20.0 AND _c7 = 234.0 AND _c8 = 22.0 GROUP BY _c3
-SELECT _c6,AVG(_n5) FROM flights_2019 WHERE _c0 = 1.0 AND _c1 = 3.0 AND _c2 = 26.0 AND _c3 = 2.0 AND _c4 = 10.0 AND _c5 = 95.0 AND _c7 = 357.0 AND _c8 = 4.0 GROUP BY _c6
-SELECT _c7,AVG(_n5) FROM flights_2019 WHERE _c0 = 2.0 AND _c2 = 19.0 AND _c3 = 3.0 AND _c4 = 5.0 AND _c6 = 9.0 AND _c8 = 8.0 GROUP BY _c7
-SELECT _c1,AVG(_n5) FROM flights_2019 WHERE _c0 = 3.0 AND _c4 = 12.0 AND _c6 = 31.0 AND _c7 = 93.0 AND _c8 = 48.0 GROUP BY _c1
+SELECT Quarter, AVG(Distance) FROM flights_2019 WHERE (Reporting_Airline = "WN" AND Origin = "BWI" AND Dest = "DEN" AND DestStateName = "Colorado") GROUP BY Quarter;
+SELECT Origin, AVG(TaxiOut) FROM flights_2019 WHERE (Quarter = 3 AND DayofMonth = 5 AND DayOfWeek = 1 AND Reporting_Airline = "AA" AND Dest = "DFW") GROUP BY Origin;
+SELECT DayofMonth, AVG(TaxiIn) FROM flights_2019 WHERE (Quarter = 3 AND DayOfWeek = 2 AND Reporting_Airline = "MQ" AND OriginStateName = "Texas") GROUP BY DayofMonth;
+SELECT DestStateName, AVG(AirTime) FROM flights_2019 WHERE (Month = 7 AND DayofMonth = 21 AND Reporting_Airline = "YX" AND OriginStateName = "Virginia") GROUP BY DestStateName;
+SELECT Origin, AVG(Distance) FROM flights_2019 WHERE (Month = 1 AND DayofMonth = 2 AND DayOfWeek = 3 AND OriginStateName = "Louisiana" AND Dest = "DFW" AND DestStateName = "Texas") GROUP BY Origin;
+SELECT Quarter, AVG(Distance) FROM flights_2019 WHERE (DayOfWeek = 7 AND Dest = "SEA") GROUP BY Quarter;
+SELECT DayOfWeek, AVG(TaxiIn) FROM flights_2019 WHERE (Quarter = 3 AND DayofMonth = 9 AND Reporting_Airline = "AA" AND Origin = "PHX" AND OriginStateName = "Arizona" AND Dest = "ONT" AND DestStateName = "California") GROUP BY DayOfWeek;
+SELECT Month, AVG(Distance) FROM flights_2019 WHERE Origin = "EWR" GROUP BY Month;
+SELECT OriginStateName, AVG(TaxiIn) FROM flights_2019 WHERE (Month = 5 AND DayofMonth = 13 AND DayOfWeek = 1 AND Reporting_Airline = "B6" AND Origin = "BOS" AND Dest = "CLE" AND DestStateName = "Ohio") GROUP BY OriginStateName;
+SELECT DestStateName, AVG(DepDelay) FROM flights_2019 WHERE (Quarter = 2 AND Month = 5 AND Reporting_Airline = "YX" AND Origin = "IND" AND OriginStateName = "Indiana") GROUP BY DestStateName;
+SELECT Reporting_Airline, AVG(DepDelay) FROM flights_2019 WHERE (Month = 7 AND DayOfWeek = 7 AND Origin = "DFW" AND OriginStateName = "Texas" AND Dest = "TUL" AND DestStateName = "Oklahoma") GROUP BY Reporting_Airline;
+SELECT DayofMonth, AVG(TaxiOut) FROM flights_2019 WHERE DestStateName = "Texas" GROUP BY DayofMonth;
+SELECT OriginStateName, AVG(ArrDelay) FROM flights_2019 WHERE (Quarter = 3 AND Month = 9 AND DayOfWeek = 6 AND Origin = "DCA" AND Dest = "JAX" AND DestStateName = "Florida") GROUP BY OriginStateName;
+SELECT Dest, AVG(TaxiIn) FROM flights_2019 GROUP BY Dest
+SELECT Origin, AVG(DepDelay) FROM flights_2019 GROUP BY Origin
+SELECT Quarter, AVG(Distance) FROM flights_2019 WHERE (Month = 2 AND DayofMonth = 19) GROUP BY Quarter;
+SELECT OriginStateName, AVG(TaxiIn) FROM flights_2019 WHERE (Quarter = 3 AND Month = 7 AND DayofMonth = 11 AND DayOfWeek = 4 AND Reporting_Airline = "UA" AND Origin = "PHL" AND Dest = "SFO" AND DestStateName = "California") GROUP BY OriginStateName;
+SELECT Quarter, AVG(Distance) FROM flights_2019 WHERE Month = 10 GROUP BY Quarter;
+SELECT Month, AVG(TaxiOut) FROM flights_2019 GROUP BY Month
+SELECT DayOfWeek, AVG(DepDelay) FROM flights_2019 WHERE (Quarter = 3 AND Month = 8 AND Reporting_Airline = "AA" AND OriginStateName = "California") GROUP BY DayOfWeek;
+SELECT DayofMonth, AVG(Distance) FROM flights_2019 WHERE (OriginStateName = "Hawaii" AND Dest = "KOA" AND DestStateName = "Hawaii") GROUP BY DayofMonth;
+SELECT Dest, AVG(TaxiOut) FROM flights_2019 WHERE (Month = 2 AND DayofMonth = 15 AND OriginStateName = "Texas") GROUP BY Dest;
+SELECT Month, AVG(DepDelay) FROM flights_2019 WHERE (Reporting_Airline = "YX" AND Origin = "ORD" AND DestStateName = "Virginia") GROUP BY Month;
+SELECT Month, AVG(TaxiIn) FROM flights_2019 WHERE (DayofMonth = 2 AND DayOfWeek = 1 AND Dest = "ATL" AND DestStateName = "Georgia") GROUP BY Month;
+SELECT DestStateName, AVG(ArrDelay) FROM flights_2019 WHERE Reporting_Airline = "UA" GROUP BY DestStateName;
+SELECT Quarter, AVG(DepDelay) FROM flights_2019 WHERE (DayOfWeek = 7 AND Origin = "ATL" AND OriginStateName = "Georgia") GROUP BY Quarter;
+SELECT Origin, AVG(TaxiOut) FROM flights_2019 WHERE (Quarter = 2 AND Month = 6 AND DayofMonth = 16 AND DayOfWeek = 7 AND Reporting_Airline = "UA" AND OriginStateName = "Florida" AND Dest = "ORD" AND DestStateName = "Illinois") GROUP BY Origin;
+SELECT Quarter, AVG(ArrDelay) FROM flights_2019 WHERE (DayofMonth = 17 AND Reporting_Airline = "EV") GROUP BY Quarter;
+SELECT Dest, AVG(TaxiIn) FROM flights_2019 WHERE (Quarter = 4 AND Month = 12 AND DayofMonth = 9 AND DayOfWeek = 1 AND Reporting_Airline = "AA" AND OriginStateName = "Oklahoma" AND DestStateName = "Texas") GROUP BY Dest;
+SELECT DayofMonth, AVG(Distance) FROM flights_2019 WHERE (Quarter = 2 AND DayOfWeek = 7 AND Origin = "GSO" AND Dest = "CLT" AND DestStateName = "North Carolina") GROUP BY DayofMonth;
+SELECT Origin, AVG(TaxiOut) FROM flights_2019 WHERE (Quarter = 3 AND Month = 7 AND DayofMonth = 21 AND Dest = "DEN" AND DestStateName = "Colorado") GROUP BY Origin;
+SELECT Reporting_Airline, AVG(ArrDelay) FROM flights_2019 WHERE (Quarter = 1 AND Month = 3 AND DayofMonth = 25 AND Origin = "LAX" AND Dest = "MCI" AND DestStateName = "Missouri") GROUP BY Reporting_Airline;
+SELECT Dest, AVG(Distance) FROM flights_2019 WHERE (Month = 7 AND DayOfWeek = 1 AND Reporting_Airline = "MQ" AND Origin = "ORD" AND OriginStateName = "Illinois" AND DestStateName = "Missouri") GROUP BY Dest;
+SELECT DayOfWeek, AVG(DepDelay) FROM flights_2019 WHERE (Month = 5 AND DayofMonth = 24 AND Origin = "TYS" AND OriginStateName = "Tennessee" AND Dest = "PHL") GROUP BY DayOfWeek;
+SELECT DestStateName, AVG(TaxiOut) FROM flights_2019 WHERE (Reporting_Airline = "DL" AND Origin = "MDT" AND OriginStateName = "Pennsylvania") GROUP BY DestStateName;
+SELECT DayOfWeek, AVG(TaxiIn) FROM flights_2019 GROUP BY DayOfWeek
+SELECT OriginStateName, AVG(AirTime) FROM flights_2019 WHERE (Month = 4 AND DestStateName = "New York") GROUP BY OriginStateName;
+SELECT DestStateName, AVG(TaxiIn) FROM flights_2019 WHERE (Quarter = 2 AND Month = 6 AND DayofMonth = 29 AND DayOfWeek = 6 AND Reporting_Airline = "OO" AND Origin = "ATL" AND OriginStateName = "Georgia") GROUP BY DestStateName;
+SELECT DayOfWeek, AVG(ArrDelay) FROM flights_2019 WHERE (DayofMonth = 7 AND Origin = "IAH" AND OriginStateName = "Texas" AND DestStateName = "Michigan") GROUP BY DayOfWeek;
+SELECT DestStateName, AVG(TaxiIn) FROM flights_2019 WHERE (Quarter = 3 AND Origin = "DTW" AND Dest = "OKC") GROUP BY DestStateName;
+SELECT DayofMonth, AVG(TaxiIn) FROM flights_2019 WHERE (Quarter = 3 AND Month = 7 AND Reporting_Airline = "WN" AND Origin = "OGG" AND Dest = "HNL" AND DestStateName = "Hawaii") GROUP BY DayofMonth;
+SELECT Reporting_Airline, AVG(AirTime) FROM flights_2019 WHERE (Quarter = 2 AND Month = 4 AND DayofMonth = 10 AND DayOfWeek = 3 AND Origin = "SFO" AND OriginStateName = "California" AND DestStateName = "Virginia") GROUP BY Reporting_Airline;
+SELECT DayofMonth, AVG(TaxiOut) FROM flights_2019 WHERE (Quarter = 1 AND Origin = "ORD" AND Dest = "FAR") GROUP BY DayofMonth;
+SELECT DayOfWeek, AVG(Distance) FROM flights_2019 WHERE (Quarter = 3 AND DayofMonth = 30 AND Reporting_Airline = "9E" AND Origin = "LGA" AND OriginStateName = "New York" AND Dest = "BTV" AND DestStateName = "Vermont") GROUP BY DayOfWeek;
+SELECT DayofMonth, AVG(TaxiOut) FROM flights_2019 WHERE (Quarter = 2 AND Month = 6 AND DayOfWeek = 4 AND Origin = "SAT" AND OriginStateName = "Texas" AND DestStateName = "Texas") GROUP BY DayofMonth;
+SELECT Dest, AVG(AirTime) FROM flights_2019 WHERE (Quarter = 4 AND Month = 12 AND DayofMonth = 15 AND DayOfWeek = 7 AND Reporting_Airline = "9E" AND OriginStateName = "Pennsylvania" AND DestStateName = "Kentucky") GROUP BY Dest;
+SELECT Origin, AVG(Distance) FROM flights_2019 WHERE (Month = 11 AND DayofMonth = 17 AND DayOfWeek = 7 AND Reporting_Airline = "OO" AND OriginStateName = "Michigan") GROUP BY Origin;
+SELECT Origin, AVG(TaxiOut) FROM flights_2019 WHERE (DayOfWeek = 3 AND OriginStateName = "Pennsylvania" AND DestStateName = "Ohio") GROUP BY Origin;
+SELECT DayofMonth, AVG(TaxiOut) FROM flights_2019 WHERE (Quarter = 4 AND Month = 10 AND DayOfWeek = 1 AND Reporting_Airline = "DL" AND Origin = "ATL" AND OriginStateName = "Georgia" AND Dest = "ROC" AND DestStateName = "New York") GROUP BY DayofMonth;
+SELECT Quarter, AVG(Distance) FROM flights_2019 WHERE (Month = 1 AND DayofMonth = 28 AND Reporting_Airline = "WN" AND OriginStateName = "Pennsylvania" AND DestStateName = "Colorado") GROUP BY Quarter;
+SELECT Reporting_Airline, AVG(Distance) FROM flights_2019 WHERE (Quarter = 1 AND Month = 1 AND DayofMonth = 29 AND Origin = "OAK" AND Dest = "SAT" AND DestStateName = "Texas") GROUP BY Reporting_Airline;
+SELECT Origin, AVG(ArrDelay) FROM flights_2019 GROUP BY Origin
+SELECT Dest, AVG(AirTime) FROM flights_2019 WHERE (Quarter = 4 AND Month = 10 AND DayofMonth = 11 AND DayOfWeek = 5 AND Origin = "DFW" AND OriginStateName = "Texas" AND DestStateName = "Florida") GROUP BY Dest;
+SELECT DayofMonth, AVG(ArrDelay) FROM flights_2019 GROUP BY DayofMonth
+SELECT DestStateName, AVG(AirTime) FROM flights_2019 GROUP BY DestStateName
+SELECT DayOfWeek, AVG(ArrDelay) FROM flights_2019 WHERE Reporting_Airline = "DL" GROUP BY DayOfWeek;
+SELECT DestStateName, AVG(AirTime) FROM flights_2019 WHERE (Quarter = 3 AND Month = 9 AND DayofMonth = 19 AND DayOfWeek = 4 AND Reporting_Airline = "NK" AND OriginStateName = "Michigan" AND Dest = "TPA") GROUP BY DestStateName;
+SELECT Dest, AVG(TaxiOut) FROM flights_2019 WHERE (Quarter = 3 AND Month = 8 AND Origin = "CLT" AND DestStateName = "Florida") GROUP BY Dest;
+SELECT Dest, AVG(ArrDelay) FROM flights_2019 WHERE (Month = 8 AND Reporting_Airline = "OH" AND OriginStateName = "Mississippi") GROUP BY Dest;
+SELECT DestStateName, AVG(DepDelay) FROM flights_2019 WHERE (DayOfWeek = 2 AND Reporting_Airline = "DL" AND Origin = "JAX" AND Dest = "ATL") GROUP BY DestStateName;
+SELECT Month, AVG(TaxiIn) FROM flights_2019 WHERE (DayofMonth = 30 AND DayOfWeek = 4 AND Origin = "LAX" AND OriginStateName = "California" AND Dest = "PRC" AND DestStateName = "Arizona") GROUP BY Month;
+SELECT DestStateName, AVG(TaxiOut) FROM flights_2019 WHERE (Quarter = 3 AND Dest = "DAL") GROUP BY DestStateName;
+SELECT Month, AVG(TaxiIn) FROM flights_2019 WHERE (Quarter = 4 AND DayofMonth = 26 AND DayOfWeek = 4 AND Reporting_Airline = "AS" AND Origin = "LAX" AND OriginStateName = "California" AND Dest = "SEA" AND DestStateName = "Washington") GROUP BY Month;
+SELECT DestStateName, AVG(AirTime) FROM flights_2019 WHERE Reporting_Airline = "OO" GROUP BY DestStateName;
+SELECT DayofMonth, AVG(ArrDelay) FROM flights_2019 WHERE (Month = 6 AND Origin = "LAS" AND OriginStateName = "Nevada" AND Dest = "MCO" AND DestStateName = "Florida") GROUP BY DayofMonth;
+SELECT Quarter, AVG(DepDelay) FROM flights_2019 WHERE (Month = 9 AND DayOfWeek = 3 AND Reporting_Airline = "EV" AND Origin = "CLE" AND OriginStateName = "Ohio" AND DestStateName = "Texas") GROUP BY Quarter;
+SELECT Reporting_Airline, AVG(AirTime) FROM flights_2019 WHERE (Quarter = 2 AND Month = 4 AND DayofMonth = 6 AND DayOfWeek = 6 AND OriginStateName = "Florida" AND Dest = "CHS" AND DestStateName = "South Carolina") GROUP BY Reporting_Airline;
+SELECT DayOfWeek, AVG(DepDelay) FROM flights_2019 GROUP BY DayOfWeek
+SELECT OriginStateName, AVG(TaxiIn) FROM flights_2019 WHERE (Quarter = 4 AND Month = 12 AND DayofMonth = 29 AND DayOfWeek = 7 AND Reporting_Airline = "WN" AND Origin = "MDW" AND Dest = "SJC" AND DestStateName = "California") GROUP BY OriginStateName;
+SELECT DayofMonth, AVG(DepDelay) FROM flights_2019 WHERE (Month = 3 AND DayOfWeek = 7 AND Dest = "ATL") GROUP BY DayofMonth;
+SELECT DayofMonth, AVG(ArrDelay) FROM flights_2019 WHERE (Quarter = 4 AND Month = 11 AND DayOfWeek = 7 AND Origin = "DFW" AND Dest = "SAN") GROUP BY DayofMonth;
+SELECT Month, AVG(DepDelay) FROM flights_2019 WHERE (Reporting_Airline = "DL" AND Origin = "ATL" AND DestStateName = "Florida") GROUP BY Month;
+SELECT DayofMonth, AVG(AirTime) FROM flights_2019 WHERE (OriginStateName = "California" AND DestStateName = "Arizona") GROUP BY DayofMonth;
+SELECT Origin, AVG(AirTime) FROM flights_2019 WHERE (Quarter = 1 AND Month = 3 AND Reporting_Airline = "AA" AND OriginStateName = "Pennsylvania" AND Dest = "BOS" AND DestStateName = "Massachusetts") GROUP BY Origin;
+SELECT DayofMonth, AVG(TaxiOut) FROM flights_2019 WHERE Dest = "PHL" GROUP BY DayofMonth;
+SELECT Dest, AVG(DepDelay) FROM flights_2019 GROUP BY Dest
+SELECT Reporting_Airline, AVG(DepDelay) FROM flights_2019 WHERE (Month = 9 AND DayofMonth = 15 AND DayOfWeek = 7 AND Origin = "HOU" AND OriginStateName = "Texas" AND Dest = "AUS" AND DestStateName = "Texas") GROUP BY Reporting_Airline;
+SELECT Quarter, AVG(AirTime) FROM flights_2019 WHERE (DayOfWeek = 2 AND Reporting_Airline = "YX" AND Origin = "GRR" AND OriginStateName = "Michigan" AND Dest = "EWR" AND DestStateName = "New Jersey") GROUP BY Quarter;
+SELECT Origin, AVG(DepDelay) FROM flights_2019 WHERE Dest = "PIE" GROUP BY Origin;
+SELECT Month, AVG(Distance) FROM flights_2019 GROUP BY Month
+SELECT Month, AVG(TaxiOut) FROM flights_2019 WHERE (Quarter = 4 AND DayofMonth = 9 AND Reporting_Airline = "DL" AND Origin = "LAX" AND OriginStateName = "California" AND Dest = "PDX" AND DestStateName = "Oregon") GROUP BY Month;
+SELECT Month, AVG(TaxiIn) FROM flights_2019 WHERE (Quarter = 3 AND DayofMonth = 31 AND DayOfWeek = 6 AND Reporting_Airline = "YV" AND Origin = "IAH" AND OriginStateName = "Texas" AND Dest = "BTR") GROUP BY Month;
+SELECT DestStateName, AVG(Distance) FROM flights_2019 WHERE OriginStateName = "Colorado" GROUP BY DestStateName;
+SELECT Reporting_Airline, AVG(TaxiIn) FROM flights_2019 WHERE (Month = 10 AND DayofMonth = 14 AND Dest = "MCO" AND DestStateName = "Florida") GROUP BY Reporting_Airline;
+SELECT DayOfWeek, AVG(ArrDelay) FROM flights_2019 WHERE (Month = 5 AND DayofMonth = 9 AND Reporting_Airline = "OO" AND Origin = "TUL" AND OriginStateName = "Oklahoma" AND DestStateName = "Texas") GROUP BY DayOfWeek;
+SELECT Reporting_Airline, AVG(AirTime) FROM flights_2019 WHERE (Origin = "TPA" AND Dest = "ORD" AND DestStateName = "Illinois") GROUP BY Reporting_Airline;
+SELECT DayOfWeek, AVG(TaxiIn) FROM flights_2019 WHERE (DayofMonth = 6 AND Reporting_Airline = "WN" AND Dest = "MDW" AND DestStateName = "Illinois") GROUP BY DayOfWeek;
+SELECT OriginStateName, AVG(ArrDelay) FROM flights_2019 WHERE (Quarter = 1 AND Month = 1 AND DayofMonth = 11 AND DayOfWeek = 5 AND Reporting_Airline = "DL" AND Origin = "IND" AND Dest = "ATL" AND DestStateName = "Georgia") GROUP BY OriginStateName;
+SELECT Origin, AVG(Distance) FROM flights_2019 WHERE (Quarter = 1 AND DayOfWeek = 3 AND Reporting_Airline = "YX") GROUP BY Origin;
+SELECT Month, AVG(ArrDelay) FROM flights_2019 WHERE (DayofMonth = 7 AND DayOfWeek = 4) GROUP BY Month;
+SELECT Origin, AVG(ArrDelay) FROM flights_2019 WHERE (Quarter = 3 AND Month = 7 AND DayofMonth = 12 AND DayOfWeek = 5 AND Reporting_Airline = "YX" AND OriginStateName = "Wisconsin" AND Dest = "EWR" AND DestStateName = "New Jersey") GROUP BY Origin;
+SELECT DestStateName, AVG(ArrDelay) FROM flights_2019 WHERE (Month = 9 AND Origin = "ORD" AND OriginStateName = "Illinois" AND Dest = "SGF") GROUP BY DestStateName;
+SELECT Dest, AVG(Distance) FROM flights_2019 WHERE DestStateName = "Pennsylvania" GROUP BY Dest;
+SELECT Reporting_Airline, AVG(ArrDelay) FROM flights_2019 WHERE DestStateName = "Minnesota" GROUP BY Reporting_Airline;
+SELECT DayofMonth, AVG(TaxiOut) FROM flights_2019 GROUP BY DayofMonth
+SELECT OriginStateName, AVG(TaxiOut) FROM flights_2019 WHERE (Quarter = 4 AND Month = 10 AND DayOfWeek = 2 AND Reporting_Airline = "AA" AND Dest = "ORD" AND DestStateName = "Illinois") GROUP BY OriginStateName;
+SELECT DayOfWeek, AVG(DepDelay) FROM flights_2019 WHERE (Quarter = 1 AND Month = 2 AND DayofMonth = 23 AND Reporting_Airline = "DL" AND Origin = "BOS" AND OriginStateName = "Massachusetts" AND Dest = "MSP" AND DestStateName = "Minnesota") GROUP BY DayOfWeek;
+SELECT OriginStateName, AVG(Distance) FROM flights_2019 WHERE (Quarter = 1 AND Month = 3 AND DayofMonth = 26 AND DayOfWeek = 2 AND Reporting_Airline = "MQ" AND Origin = "DFW" AND Dest = "XNA" AND DestStateName = "Arkansas") GROUP BY OriginStateName;
+SELECT Dest, AVG(Distance) FROM flights_2019 WHERE (Quarter = 2 AND DayofMonth = 19 AND DayOfWeek = 3 AND Reporting_Airline = "DL" AND OriginStateName = "Georgia" AND DestStateName = "Florida") GROUP BY Dest;
+SELECT Month, AVG(Distance) FROM flights_2019 WHERE (Quarter = 3 AND Reporting_Airline = "OH" AND OriginStateName = "New York" AND Dest = "DCA" AND DestStateName = "Virginia") GROUP BY Month;
