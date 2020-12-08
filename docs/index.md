@@ -12,6 +12,20 @@
 
 ### Relative Error Plots
 
+Figure 5
+![Figure 5a](/relative_error_plots/Figure5_a.png)
+**Flights Dataset**
+![Figure 5b](/relative_error_plots/Figure5_b.png)
+**Housing Dataset**
+![Figure 5c](/relative_error_plots/Figure5_c.png)
+**Beijing PM2.5 Dataset**
+
+Figure 7
+![Figure 7a](/relative_error_plots/Figure7_a.png)
+**AVG Queries**
+![Figure 7b](/relative_error_plots/Figure7_b.png)
+**SUM Queries**
+
 ### Contributors
 - Nikhil Sheoran <<sheoran@adobe.com>>
 - Subrata Mitra <<subrata.mitra@adobe.com>>
